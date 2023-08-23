@@ -2,7 +2,7 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
 
 \bibitem{percacci}
-R.~Percacci, ``{QFT II Lecture Notes}.''
+R.~Percacci, \emph{{QFT II Lecture Notes}},  2020.
 
 \bibitem{marino_2015}
 M.~Marcos., \emph{Instantons and Large N: An Introduction to Non-Perturbative

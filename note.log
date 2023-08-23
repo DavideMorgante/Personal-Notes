@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  23 AUG 2023 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  23 AUG 2023 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1321,7 +1321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 606--608
 [13] [14]
 
 pdfTeX warning: pdflatex (file ./instanton.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<instanton.pdf, id=493, 1047.915pt x 899.36pt>
+<instanton.pdf, id=498, 1047.915pt x 899.36pt>
 File: instanton.pdf Graphic file (type pdf)
 <use instanton.pdf>
 Package pdftex.def Info: instanton.pdf  used on input line 684.
@@ -1371,242 +1371,242 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 1047.
 [25]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1067.
+(hyperref)                removing `math shift' on input line 1103.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1067.
+(hyperref)                removing `math shift' on input line 1103.
 
-[26]
+[26] [27]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1114 \begin{defn}{Momentum Map}{}
+l.1150 \begin{defn}{Momentum Map}{}
                                    
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1137.
+(hyperref)                removing `math shift' on input line 1173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1137.
+(hyperref)                removing `subscript' on input line 1173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1137.
+(hyperref)                removing `math shift' on input line 1173.
 
-[27] [28] [29] [30] [31]
-Overfull \hbox (11.17085pt too wide) in paragraph at lines 1284--1286
+[28] [29] [30] [31]
+Overfull \hbox (11.17085pt too wide) in paragraph at lines 1320--1322
 \T1/ybv/m/n/10.95 it is called Gukov-Witten op-er-a-tor. The charged ob-jects are Wil-son and 't Hooft lines $\OML/jkp/m/it/10.95 W[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 L\OT1/jkp/m/n/10.95 )\OML/jkp/m/it/10.95 ; H[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 L\OT1/jkp/m/n/10.95 )$
  []
 
-[32] [33]
+[32] [33] [34]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1366.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1366.
-
-[34] [35] [36]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1478.
+(hyperref)                removing `math shift' on input line 1402.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1478.
+(hyperref)                removing `math shift' on input line 1402.
 
-[37] [38] [39] [40]
-LaTeX Font Info:    Trying to load font information for TS1+ybv on input line 1607.
+[35] [36] [37]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1514.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1514.
+
+[38] [39] [40] [41]
+LaTeX Font Info:    Trying to load font information for TS1+ybv on input line 1643.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/baskervald/ts1ybv.fd
 File: ts1ybv.fd 2010/07/13 Fontinst v1.933 font definitions for TS1/ybv.
-) [41] [42] [43] [44] [45]
+) [42] [43] [44] [45] [46]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1820.
+(hyperref)                removing `math shift' on input line 1856.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1820.
+(hyperref)                removing `math shift' on input line 1856.
 
-[46]
-Overfull \hbox (16.63184pt too wide) in paragraph at lines 1843--1846
+[47]
+Overfull \hbox (16.63184pt too wide) in paragraph at lines 1879--1882
 \T1/ybv/m/n/10.95 Another pos-si-bil-ity is with $[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 N\OT1/jkp/m/n/10.95 )$ \T1/ybv/m/n/10.95 gauge groups and add $\OT1/jkp/m/n/10.95 2\OML/jkp/m/it/10.95 N$ \T1/ybv/m/n/10.95 fun-da-men-tal flavours $\OML/jkp/m/it/10.95 R \OT1/jkp/m/n/10.95 = [] 2\OML/jkp/m/it/10.95 NR[]$\T1/ybv/m/n/10.95 .
  []
 
-[47] [48] [49] [50] [51]
-<dualities.pdf, id=926, 1927.2pt x 1084.05pt>
+[48] [49] [50] [51] [52]
+<dualities.pdf, id=945, 1927.2pt x 1084.05pt>
 File: dualities.pdf Graphic file (type pdf)
 <use dualities.pdf>
-Package pdftex.def Info: dualities.pdf  used on input line 2048.
+Package pdftex.def Info: dualities.pdf  used on input line 2084.
 (pdftex.def)             Requested size: 426.39256pt x 239.83157pt.
- [52 <./dualities.pdf>]
-<su2.pdf, id=939, 1927.2pt x 1084.05pt>
+ [53 <./dualities.pdf>]
+<su2.pdf, id=958, 1927.2pt x 1084.05pt>
 File: su2.pdf Graphic file (type pdf)
 <use su2.pdf>
-Package pdftex.def Info: su2.pdf  used on input line 2069.
+Package pdftex.def Info: su2.pdf  used on input line 2105.
 (pdftex.def)             Requested size: 426.39256pt x 239.83157pt.
- [53] [54 <./su2.pdf>]
+ [54] [55 <./su2.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2101.
+(hyperref)                removing `math shift' on input line 2137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2104.
+(hyperref)                removing `math shift' on input line 2137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2104.
-
-[55] [56]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2193.
+(hyperref)                removing `math shift' on input line 2140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2193.
+(hyperref)                removing `math shift' on input line 2140.
 
-[57]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2209.
-
+[56] [57]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2209.
+(hyperref)                removing `math shift' on input line 2229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2229.
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 2250--2254
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2245.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2245.
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2271--2273
+Underfull \hbox (badness 10000) in paragraph at lines 2286--2290
 
  []
 
-[60] [61] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 2370--2371
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 2307--2309
 
  []
 
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 2403--2405
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2425--2426
+[61] [62] [63]
+Underfull \hbox (badness 10000) in paragraph at lines 2406--2407
 
  []
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 2438--2443
+Underfull \hbox (badness 10000) in paragraph at lines 2439--2441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2461--2462
 
  []
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 2466--2468
+Underfull \hbox (badness 10000) in paragraph at lines 2474--2479
 
  []
 
 [66]
-Underfull \hbox (badness 10000) in paragraph at lines 2475--2477
+Underfull \hbox (badness 10000) in paragraph at lines 2502--2504
 
  []
 
-[67] [68]
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 2511--2513
+
+ []
+
+[68] [69]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2573.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2573.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2573.
+(hyperref)                removing `math shift' on input line 2609.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2573.
+(hyperref)                removing `math shift' on input line 2609.
 
-[69] [70] [71] [72]
-<sol.png, id=1163, 1054.94125pt x 655.44875pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2609.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2609.
+
+[70] [71] [72] [73]
+<sol.png, id=1183, 1054.94125pt x 655.44875pt>
 File: sol.png Graphic file (type png)
 <use sol.png>
-Package pdftex.def Info: sol.png  used on input line 2698.
+Package pdftex.def Info: sol.png  used on input line 2734.
 (pdftex.def)             Requested size: 298.47348pt x 185.44464pt.
- [73] [74 <./sol.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2739--2741
+ [74] [75 <./sol.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2775--2777
 
  []
 
-[75] [76]
-Overfull \hbox (2.14691pt too wide) detected at line 2792
+[76] [77]
+Overfull \hbox (2.14691pt too wide) detected at line 2828
 []
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2797.
+(hyperref)                removing `math shift' on input line 2833.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2797.
-
-[77]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2829.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2829.
+(hyperref)                removing `math shift' on input line 2833.
 
 [78]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2870.
+(hyperref)                removing `math shift' on input line 2865.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2870.
+(hyperref)                removing `math shift' on input line 2865.
 
 [79]
-Underfull \hbox (badness 10000) in paragraph at lines 2885--2886
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2906.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2906.
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 2921--2922
 
  []
 
-[80] [81] [82] (./note.bbl) [83] (./note.aux)
+[81] [82] [83] (./note.bbl) [84] (./note.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: ABE39DCE814924BD522E1B3D3E0D0425;9818.
+(rerunfilecheck)             Checksum: 427EA524A8B05FA0FBC5C880592A76C5;9936.
  ) 
 Here is how much of TeX's memory you used:
- 46527 strings out of 478268
- 1016643 string characters out of 5846348
+ 46540 strings out of 478268
+ 1016831 string characters out of 5846348
  1413969 words of memory out of 5000000
- 63210 multiletter control sequences out of 15000+600000
+ 63212 multiletter control sequences out of 15000+600000
  643755 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,23n,117p,3269b,1098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/baskervald/supp-ybv.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpexa.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvri8a.pfb>
-Output written on note.pdf (83 pages, 580282 bytes).
+Output written on note.pdf (84 pages, 583609 bytes).
 PDF statistics:
- 1489 PDF objects out of 1728 (max. 8388607)
- 1345 compressed objects within 14 object streams
- 677 named destinations out of 1000 (max. 500000)
- 463 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1511 PDF objects out of 1728 (max. 8388607)
+ 1366 compressed objects within 14 object streams
+ 688 named destinations out of 1000 (max. 500000)
+ 471 words of extra memory for PDF output out of 10000 (max. 10000000)
 

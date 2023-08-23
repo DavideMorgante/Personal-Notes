@@ -1025,7 +1025,7 @@ and the boundary operator acts as
 	\begin{equation}
 		0\xhookrightarrow{\iota} C_{n}(\Delta(X),\bbA)\xrightarrow{\partial_{n}} C_{n-1}(\Delta(X),\bbA),\xrightarrow{\partial_{n-1}}C_{n-2}(\Delta(X),\bbA)\rightarrow\cdots
 	\end{equation}
-	The first map is the inclusion map. This sequence is called \textbf{chain complex} and is referred to as $C(X)$.
+	The first map is the inclusion map. This sequence is called \textbf{chain complex} and is referred to as $C(X)$\footnote{Complexes form an abelian category whose morphisms consists of commutative diagrams.}.
 \end{defn}
 Given that $\partial^{2}=0$ is a boundary operator, the chain complex lets us define an homology on $X$
 \begin{equation}
@@ -1061,6 +1061,42 @@ So a closed chain is in one-to-one correspondence with defects carrying group la
 
 We also need to mod out for boundaries. Boundaries are nuclated whenever we have a loop in the network since they have to be closed by definition. Therefore, when we want to talk about defects, we not only require them to be closed but also mod out by nucleation which requires them to be in some homology group.
 
+\subsubsection{Cohomology}
+So we introduced the homology groups $\HH_j(X,\bbA)$ whose elements are closed chains which are not exact. We also found the physical correspondence of such objects: a $\gamma\in \HH_j$ is a newtork of $\bbA$-defects on a simplicial triangulation $\Delta(X)$ of some space-time manifold $X$\dots
+
+We can now introduce the concept of \textit{co-chains}
+\begin{defn}{Cochain}{}
+	A co-chain $\nu$ is an element of 
+	\begin{equation}
+		C^j(X,\bbA)\equiv \mathrm{Hom}(C_j(X),\bbA)
+	\end{equation}
+	i.e. a map from chains to elements of an abelian group $\bbA$.
+\end{defn}
+As per the chains, cochains form an abelian group and we can define a differential
+\begin{equation}
+	\dd{}:C^j(X,\bbA)\rightarrow C^{j+1}(X,\bbA)
+\end{equation}
+which will act as expected: take $\nu\in C^j(X,\bbA)$, then
+\begin{equation}
+	\dd{\nu}(\gamma):=\nu(\partial\gamma)
+\end{equation}
+Clearly this is idempotent $\dd^2=0$. In components, by choosing a basis for $C_j(X)$, $\gamma=[i_0,\ldots, i_j]$ we have
+\begin{equation}
+	\nu\qty([i_0,\ldots, i_j])=\nu_{i_0\ldots i_j}\implies \dd{\nu}_{i_0\ldots i_j}=\sum_k (-1)^k \nu_{i_0\ldots i_{k-1}\;i_{k+1}\ldots i_j}
+\end{equation}
+Consider for example a $1$-cochain $\nu_{ij}$, we see that (using multiplicative notation)
+\begin{equation}
+	\dd{\nu}_{ijk}=\nu_{jk}\nu^{-1}_{ik}\nu_{ij}.
+\end{equation}
+Homology for cochains is called \textit{cohomology} and is given by the following co-chain complex
+\begin{equation}
+	\cdots\rightarrow C^j(X,\bbA)\xrightarrow{\dd}C^{j+1}(X,\bbA)\xrightarrow{\dd}C^{j+2}(X,\bbA)\xrightarrow{\dd}\cdots
+\end{equation}
+and
+\begin{equation}
+	\HH^j(X,\bbA)=\frac{\mathrm{Ker}(\dd_j)}{\mathrm{Im}(\dd_{j-1})}
+\end{equation}
+whose elements are flat connections which are not pure gauge.
 \section{Chern-Simons theory}
 This chapter is basically a relaboration and expansion of \cite[Chapter 2]{Moor} which has also been covered in a four lectures series at TASI by Greg Moore on CS-theory. 
 

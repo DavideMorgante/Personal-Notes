@@ -13,41 +13,42 @@
 \contentsline {subsection}{\numberline {3.8}Homology, cohomology and gauge fields}{21}{subsection.3.8}%
 \contentsline {subsubsection}{\numberline {3.8.1}Sequences}{21}{subsubsection.3.8.1}%
 \contentsline {subsubsection}{\numberline {3.8.2}Simplicial Homology}{23}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.3}Cohomology}{26}{subsubsection.3.8.3}%
 \contentsline {section}{\numberline {4}Chern-Simons theory}{26}{section.4}%
-\contentsline {subsection}{\numberline {4.1}$U(1)$-Chern Simons Theory}{26}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Quantization}{26}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Quantization Procedures}{26}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Mathematical Aside: Moment Map and Symplectic reduction}{26}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}$\mathbb {Z}_n$-Chern Simons theory}{27}{subsection.4.3}%
-\contentsline {section}{\numberline {5}The power of symmetry}{27}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Higher symmetries}{31}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Seiberg--Witten theory}{33}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Susy algebra}{33}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Most basic $\mathcal {N}=2$ renormalizable gauge theory}{34}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Dynamics}{36}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Spectrum}{36}{subsubsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.3}The other way of constructing $\mathcal {N}=2$ theory}{37}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}The third construction}{42}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}The Seiberg--Witten construction}{43}{subsection.6.5}%
-\contentsline {section}{\numberline {7}$\mathcal {N}=2$ Dualities}{46}{section.7}%
-\contentsline {subsection}{\numberline {7.1}S-dualities}{50}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Do the graph theory have S-dualities}{51}{subsubsection.7.1.1}%
-\contentsline {section}{\numberline {8}$q$-deformed YM}{55}{section.8}%
-\contentsline {subsection}{\numberline {8.1}$2d$ Yang-Mills}{55}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}$q$-deformed YM}{58}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Relation between Gaiotto theories and $q$-deformed YM}{58}{subsection.8.3}%
-\contentsline {section}{\numberline {9}Localization}{58}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Equivariant cohomology}{58}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Supersymmetry in curved space}{62}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Examples}{66}{subsubsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.3}The $2d$ $\mathcal {N}=(2,2)$ gauge theory}{70}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Higgs branch localization}{74}{subsection.9.4}%
-\contentsline {section}{\numberline {10}Index stuff}{76}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Index of $\mathrm {SU}(2)$ and Seiberg duality}{77}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Index for $\mathcal {N}=2$}{78}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}Susy limits}{79}{subsubsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.2}Rank $1$ Gaiotto theories}{79}{subsubsection.10.2.2}%
-\contentsline {subsubsection}{\numberline {10.2.3}Generalization to higher rank}{81}{subsubsection.10.2.3}%
-\contentsline {subsection}{\numberline {10.3}Chiaral symmetry breaking}{82}{subsection.10.3}%
-\contentsline {section}{\numberline {11}Confining duality}{82}{section.11}%
-\contentsline {section}{References}{83}{section*.9}%
+\contentsline {subsection}{\numberline {4.1}$U(1)$-Chern Simons Theory}{27}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Quantization}{27}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Quantization Procedures}{27}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Mathematical Aside: Moment Map and Symplectic reduction}{27}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}$\mathbb {Z}_n$-Chern Simons theory}{28}{subsection.4.3}%
+\contentsline {section}{\numberline {5}The power of symmetry}{28}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Higher symmetries}{32}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Seiberg--Witten theory}{34}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Susy algebra}{34}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Most basic $\mathcal {N}=2$ renormalizable gauge theory}{35}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Dynamics}{37}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Spectrum}{37}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}The other way of constructing $\mathcal {N}=2$ theory}{38}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}The third construction}{43}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}The Seiberg--Witten construction}{44}{subsection.6.5}%
+\contentsline {section}{\numberline {7}$\mathcal {N}=2$ Dualities}{47}{section.7}%
+\contentsline {subsection}{\numberline {7.1}S-dualities}{51}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Do the graph theory have S-dualities}{52}{subsubsection.7.1.1}%
+\contentsline {section}{\numberline {8}$q$-deformed YM}{56}{section.8}%
+\contentsline {subsection}{\numberline {8.1}$2d$ Yang-Mills}{56}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}$q$-deformed YM}{59}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Relation between Gaiotto theories and $q$-deformed YM}{59}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Localization}{59}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Equivariant cohomology}{59}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Supersymmetry in curved space}{63}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Examples}{67}{subsubsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.3}The $2d$ $\mathcal {N}=(2,2)$ gauge theory}{71}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Higgs branch localization}{75}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Index stuff}{77}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Index of $\mathrm {SU}(2)$ and Seiberg duality}{78}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Index for $\mathcal {N}=2$}{79}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Susy limits}{80}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}Rank $1$ Gaiotto theories}{80}{subsubsection.10.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.3}Generalization to higher rank}{82}{subsubsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.3}Chiaral symmetry breaking}{83}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Confining duality}{83}{section.11}%
+\contentsline {section}{References}{84}{section*.9}%
