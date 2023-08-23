@@ -1,0 +1,23 @@
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{percacci}
+R.~Percacci, ``{QFT II Lecture Notes}.''
+
+\bibitem{marino_2015}
+M.~Marcos., \emph{Instantons and Large N: An Introduction to Non-Perturbative
+  Methods in Quantum Field Theory}. Cambridge University Press, 2015.
+
+\bibitem{Rattazzi}
+R.~Rattazzi, \emph{{The Path Integral approach to Quantum Mechanics - Lecture
+  Notes for Quantum Mechanics IV}},  2009,
+  \href{https://userswww.pd.infn.it/~feruglio/rattazzi.pdf}{https://userswww.pd.infn.it/~feruglio/rattazzi.pdf}.
+
+\bibitem{Hat}
+A.~Hatcher, \emph{{Algebraic topology}}. Cambridge Univ. Press, Cambridge,
+  2000.
+
+\bibitem{Moor}
+G.~Moore, \emph{{Introduction To {C}hern-{S}imons {T}heories}},  2019.
+
+\end{thebibliography}\endgroup
