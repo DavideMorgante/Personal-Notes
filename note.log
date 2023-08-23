@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  23 AUG 2023 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  23 AUG 2023 12:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,46 +1092,53 @@ Package: bbold 1994/04/06 Bbold symbol package
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
 )
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 93.
-LaTeX Font Info:    Trying to load font information for T1+ybv on input line 249.
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/dowith/dowith.sty (/usr/local/texlive/2022/texmf-dist/tex/generic/plainpkg/plainpkg.tex
+File: plainpkg.tex 2012/09/19 v0.4a plain package management
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/catcodes/stacklet.sty (/usr/local/texlive/2022/texmf-dist/tex/generic/plainpkg/plainpkg.tex)
+Package: stacklet 2012/11/07 v0.3a private letters (UL)
+))
+Package: dowith 2012/11/05 v0.3 simple list loop (UL)
+)
+LaTeX Font Info:    Trying to load font information for T1+ybv on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/baskervald/t1ybv.fd
 File: t1ybv.fd 2010/07/13 Fontinst v1.933 font definitions for T1/ybv.
 ) (./note.aux)
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 249.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 249.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 149.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 249.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 249.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 149.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 249.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 249.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 149.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 249.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 249.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 149.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1186,38 +1193,38 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 249.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 249.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 249.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 249.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 249.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 249.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 249.
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Package xypdf Info: Line width: 0.5475pt on input line 249.
+Package xypdf Info: Line width: 0.5475pt on input line 149.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 249.
+Package hyperref Info: Link coloring ON on input line 149.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1227,9 +1234,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count379
 )
-LaTeX Info: Redefining \ref on input line 249.
-LaTeX Info: Redefining \pageref on input line 249.
-LaTeX Info: Redefining \nameref on input line 249.
+LaTeX Info: Redefining \ref on input line 149.
+LaTeX Info: Redefining \pageref on input line 149.
+LaTeX Info: Redefining \nameref on input line 149.
  (./note.out) (./note.out)
 \@outlinefile=\write6
 \openout6 = `note.out'.
@@ -1243,71 +1250,71 @@ LaTeX Info: Redefining \nameref on input line 249.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 260.
+(hyperref)                removing `math shift' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 260.
+(hyperref)                removing `subscript' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 260.
+(hyperref)                removing `math shift' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
+(hyperref)                removing `math shift' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
+(hyperref)                removing `math shift' on input line 161.
 
 [2] [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
+(hyperref)                removing `math shift' on input line 225.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 325.
+(hyperref)                removing `subscript' on input line 225.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
+(hyperref)                removing `math shift' on input line 225.
 
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 351.
+(hyperref)                removing `math shift' on input line 251.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 351.
+(hyperref)                removing `superscript' on input line 251.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 351.
+(hyperref)                removing `math shift' on input line 251.
 
 [5] [6] [7]
-Overfull \hbox (29.67426pt too wide) detected at line 490
+Overfull \hbox (29.67426pt too wide) detected at line 390
 [][][][][]
  []
 
 [8]
 
-LaTeX Warning: Citation `Tachikawa2017gyf' on page 9 undefined on input line 543.
+LaTeX Warning: Citation `Tachikawa2017gyf' on page 9 undefined on input line 443.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--587
+Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
 [10] [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 706--708
+Underfull \hbox (badness 10000) in paragraph at lines 606--608
 
  []
 
@@ -1317,115 +1324,115 @@ pdfTeX warning: pdflatex (file ./instanton.pdf): PDF inclusion: found PDF versio
 <instanton.pdf, id=493, 1047.915pt x 899.36pt>
 File: instanton.pdf Graphic file (type pdf)
 <use instanton.pdf>
-Package pdftex.def Info: instanton.pdf  used on input line 784.
+Package pdftex.def Info: instanton.pdf  used on input line 684.
 (pdftex.def)             Requested size: 426.39256pt x 203.86053pt.
 [15 <./instanton.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 800--802
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 837--838
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 
  []
 
 
-LaTeX Warning: Citation `Roumpedakis2022aik' on page 17 undefined on input line 854.
+LaTeX Warning: Citation `Roumpedakis2022aik' on page 17 undefined on input line 754.
 
 [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 932--934
+Underfull \hbox (badness 10000) in paragraph at lines 832--834
 
  []
 
 [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 995--997
+Underfull \hbox (badness 10000) in paragraph at lines 895--897
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 998--999
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+Underfull \hbox (badness 10000) in paragraph at lines 904--905
 
  []
 
 [21] [22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
 
  []
 
 [24]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 1147.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 1047.
 
 [25]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1167.
+(hyperref)                removing `math shift' on input line 1067.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1167.
+(hyperref)                removing `math shift' on input line 1067.
 
 [26]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1214 \begin{defn}{Momentum Map}{}
+l.1114 \begin{defn}{Momentum Map}{}
                                    
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1237.
+(hyperref)                removing `math shift' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1237.
+(hyperref)                removing `subscript' on input line 1137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1237.
+(hyperref)                removing `math shift' on input line 1137.
 
 [27] [28] [29] [30] [31]
-Overfull \hbox (11.17085pt too wide) in paragraph at lines 1384--1386
+Overfull \hbox (11.17085pt too wide) in paragraph at lines 1284--1286
 \T1/ybv/m/n/10.95 it is called Gukov-Witten op-er-a-tor. The charged ob-jects are Wil-son and 't Hooft lines $\OML/jkp/m/it/10.95 W[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 L\OT1/jkp/m/n/10.95 )\OML/jkp/m/it/10.95 ; H[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 L\OT1/jkp/m/n/10.95 )$
  []
 
 [32] [33]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1466.
+(hyperref)                removing `math shift' on input line 1366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1466.
+(hyperref)                removing `math shift' on input line 1366.
 
 [34] [35] [36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1578.
+(hyperref)                removing `math shift' on input line 1478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1578.
+(hyperref)                removing `math shift' on input line 1478.
 
 [37] [38] [39] [40]
-LaTeX Font Info:    Trying to load font information for TS1+ybv on input line 1707.
+LaTeX Font Info:    Trying to load font information for TS1+ybv on input line 1607.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/baskervald/ts1ybv.fd
 File: ts1ybv.fd 2010/07/13 Fontinst v1.933 font definitions for TS1/ybv.
 ) [41] [42] [43] [44] [45]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1920.
+(hyperref)                removing `math shift' on input line 1820.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1920.
+(hyperref)                removing `math shift' on input line 1820.
 
 [46]
-Overfull \hbox (16.63184pt too wide) in paragraph at lines 1943--1946
+Overfull \hbox (16.63184pt too wide) in paragraph at lines 1843--1846
 \T1/ybv/m/n/10.95 Another pos-si-bil-ity is with $[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 N\OT1/jkp/m/n/10.95 )$ \T1/ybv/m/n/10.95 gauge groups and add $\OT1/jkp/m/n/10.95 2\OML/jkp/m/it/10.95 N$ \T1/ybv/m/n/10.95 fun-da-men-tal flavours $\OML/jkp/m/it/10.95 R \OT1/jkp/m/n/10.95 = [] 2\OML/jkp/m/it/10.95 NR[]$\T1/ybv/m/n/10.95 .
  []
 
@@ -1433,150 +1440,150 @@ Overfull \hbox (16.63184pt too wide) in paragraph at lines 1943--1946
 <dualities.pdf, id=926, 1927.2pt x 1084.05pt>
 File: dualities.pdf Graphic file (type pdf)
 <use dualities.pdf>
-Package pdftex.def Info: dualities.pdf  used on input line 2148.
+Package pdftex.def Info: dualities.pdf  used on input line 2048.
 (pdftex.def)             Requested size: 426.39256pt x 239.83157pt.
  [52 <./dualities.pdf>]
 <su2.pdf, id=939, 1927.2pt x 1084.05pt>
 File: su2.pdf Graphic file (type pdf)
 <use su2.pdf>
-Package pdftex.def Info: su2.pdf  used on input line 2169.
+Package pdftex.def Info: su2.pdf  used on input line 2069.
 (pdftex.def)             Requested size: 426.39256pt x 239.83157pt.
  [53] [54 <./su2.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2201.
+(hyperref)                removing `math shift' on input line 2101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2201.
+(hyperref)                removing `math shift' on input line 2101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2204.
+(hyperref)                removing `math shift' on input line 2104.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2204.
+(hyperref)                removing `math shift' on input line 2104.
 
 [55] [56]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2293.
+(hyperref)                removing `math shift' on input line 2193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2293.
+(hyperref)                removing `math shift' on input line 2193.
 
 [57]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2309.
+(hyperref)                removing `math shift' on input line 2209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2309.
+(hyperref)                removing `math shift' on input line 2209.
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 2350--2354
+Underfull \hbox (badness 10000) in paragraph at lines 2250--2254
 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2371--2373
+Underfull \hbox (badness 10000) in paragraph at lines 2271--2273
 
  []
 
 [60] [61] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2471
+Underfull \hbox (badness 10000) in paragraph at lines 2370--2371
 
  []
 
 [63]
-Underfull \hbox (badness 10000) in paragraph at lines 2503--2505
+Underfull \hbox (badness 10000) in paragraph at lines 2403--2405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2525--2526
+Underfull \hbox (badness 10000) in paragraph at lines 2425--2426
 
  []
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 2538--2543
+Underfull \hbox (badness 10000) in paragraph at lines 2438--2443
 
  []
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2568
+Underfull \hbox (badness 10000) in paragraph at lines 2466--2468
 
  []
 
 [66]
-Underfull \hbox (badness 10000) in paragraph at lines 2575--2577
+Underfull \hbox (badness 10000) in paragraph at lines 2475--2477
 
  []
 
 [67] [68]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2673.
+(hyperref)                removing `math shift' on input line 2573.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2673.
+(hyperref)                removing `math shift' on input line 2573.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2673.
+(hyperref)                removing `math shift' on input line 2573.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2673.
+(hyperref)                removing `math shift' on input line 2573.
 
 [69] [70] [71] [72]
 <sol.png, id=1163, 1054.94125pt x 655.44875pt>
 File: sol.png Graphic file (type png)
 <use sol.png>
-Package pdftex.def Info: sol.png  used on input line 2798.
+Package pdftex.def Info: sol.png  used on input line 2698.
 (pdftex.def)             Requested size: 298.47348pt x 185.44464pt.
  [73] [74 <./sol.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2839--2841
+Underfull \hbox (badness 10000) in paragraph at lines 2739--2741
 
  []
 
 [75] [76]
-Overfull \hbox (2.14691pt too wide) detected at line 2892
+Overfull \hbox (2.14691pt too wide) detected at line 2792
 []
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2897.
+(hyperref)                removing `math shift' on input line 2797.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2897.
+(hyperref)                removing `math shift' on input line 2797.
 
 [77]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2929.
+(hyperref)                removing `math shift' on input line 2829.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2929.
+(hyperref)                removing `math shift' on input line 2829.
 
 [78]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2970.
+(hyperref)                removing `math shift' on input line 2870.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2970.
+(hyperref)                removing `math shift' on input line 2870.
 
 [79]
-Underfull \hbox (badness 10000) in paragraph at lines 2985--2986
+Underfull \hbox (badness 10000) in paragraph at lines 2885--2886
 
  []
 
@@ -1588,15 +1595,15 @@ Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: ABE39DCE814924BD522E1B3D3E0D0425;9818.
  ) 
 Here is how much of TeX's memory you used:
- 46446 strings out of 478268
- 1014508 string characters out of 5846348
+ 46527 strings out of 478268
+ 1016643 string characters out of 5846348
  1413969 words of memory out of 5000000
- 63143 multiletter control sequences out of 15000+600000
+ 63210 multiletter control sequences out of 15000+600000
  643755 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,23n,117p,3269b,1098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/baskervald/supp-ybv.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpexa.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvri8a.pfb>
-Output written on note.pdf (83 pages, 580095 bytes).
+Output written on note.pdf (83 pages, 580282 bytes).
 PDF statistics:
  1489 PDF objects out of 1728 (max. 8388607)
  1345 compressed objects within 14 object streams

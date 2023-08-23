@@ -110,117 +110,17 @@
 %For correct imaginary unit
 \newcommand*\I{\mathrm{i}}
 
-%Calligraphic letters
-\newcommand*\cA{\mathcal{A}}
-\newcommand*\cB{\mathcal{B}}
-\newcommand*\cC{\mathcal{C}}
-\newcommand*\cD{\mathcal{D}}
-\newcommand*\cE{\mathcal{E}}
-\newcommand*\cF{\mathcal{F}}
-\newcommand*\cG{\mathcal{G}}
-\newcommand*\cH{\mathcal{H}}
-\newcommand*\cI{\mathcal{I}}
-\newcommand*\cJ{\mathcal{J}}
-\newcommand*\cK{\mathcal{K}}
-\newcommand*\cL{\mathcal{L}}
-\newcommand*\cM{\mathcal{M}}
-\newcommand*\cN{\mathcal{N}}
-\newcommand*\cO{\mathcal{O}}
-\newcommand*\cP{\mathcal{P}}
-\newcommand*\cQ{\mathcal{Q}}
-\newcommand*\cR{\mathcal{R}}
-\newcommand*\cS{\mathcal{S}}
-\newcommand*\cT{\mathcal{T}}
-\newcommand*\cU{\mathcal{U}}
-\newcommand*\cV{\mathcal{V}}
-\newcommand*\cW{\mathcal{W}}
-\newcommand*\cX{\mathcal{X}}
-\newcommand*\cY{\mathcal{Y}}
-\newcommand*\cZ{\mathcal{Z}}
+%Letters
+\usepackage{dowith}
+\newcommand{\UpperCase}[1]{
+  \expandafter\newcommand\csname bb#1\endcsname{\mathbb{#1}}
+  \expandafter\newcommand\csname c#1\endcsname{\mathcal{#1}}
+  \expandafter\newcommand\csname Fr#1\endcsname{\mathfrak{#1}}   }
+\DoWith\UpperCase ABCDEFGHIJKLMNOPQRSTUVWXYZ\StopDoing
 
-
-%BB letters
-\newcommand*\bbA{\mathbb{A}}
-\newcommand*\bbB{\mathbb{B}}
-\newcommand*\bbC{\mathbb{C}}
-\newcommand*\bbD{\mathbb{D}}
-\newcommand*\bbE{\mathbb{E}}
-\newcommand*\bbF{\mathbb{F}}
-\newcommand*\bbG{\mathbb{G}}
-\newcommand*\bbH{\mathbb{H}}
-\newcommand*\bbI{\mathbb{I}}
-\newcommand*\bbJ{\mathbb{J}}
-\newcommand*\bbK{\mathbb{K}}
-\newcommand*\bbL{\mathbb{L}}
-\newcommand*\bbM{\mathbb{M}}
-\newcommand*\bbN{\mathbb{N}}
-\newcommand*\bbO{\mathbb{O}}
-\newcommand*\bbP{\mathbb{P}}
-\newcommand*\bbQ{\mathbb{Q}}
-\newcommand*\bbR{\mathbb{R}}
-\newcommand*\bbS{\mathbb{S}}
-\newcommand*\bbT{\mathbb{T}}
-\newcommand*\bbU{\mathbb{U}}
-\newcommand*\bbV{\mathbb{V}}
-\newcommand*\bbW{\mathbb{W}}
-\newcommand*\bbX{\mathbb{X}}
-\newcommand*\bbY{\mathbb{Y}}
-\newcommand*\bbZ{\mathbb{Z}}
-
-%Fraktur letters
-\newcommand*\FrA{\mathfrak{A}}
-\newcommand*\FrB{\mathfrak{B}}
-\newcommand*\FrC{\mathfrak{C}}
-\newcommand*\FrD{\mathfrak{D}}
-\newcommand*\FrE{\mathfrak{E}}
-\newcommand*\FrF{\mathfrak{F}}
-\newcommand*\FrG{\mathfrak{G}}
-\newcommand*\FrH{\mathfrak{H}}
-\newcommand*\FrI{\mathfrak{I}}
-\newcommand*\FrJ{\mathfrak{J}}
-\newcommand*\FrK{\mathfrak{K}}
-\newcommand*\FrL{\mathfrak{L}}
-\newcommand*\FrM{\mathfrak{M}}
-\newcommand*\FrN{\mathfrak{N}}
-\newcommand*\FrO{\mathfrak{O}}
-\newcommand*\FrP{\mathfrak{P}}
-\newcommand*\FrQ{\mathfrak{Q}}
-\newcommand*\FrR{\mathfrak{R}}
-\newcommand*\FrS{\mathfrak{S}}
-\newcommand*\FrT{\mathfrak{T}}
-\newcommand*\FrU{\mathfrak{U}}
-\newcommand*\FrV{\mathfrak{V}}
-\newcommand*\FrW{\mathfrak{W}}
-\newcommand*\FrX{\mathfrak{X}}
-\newcommand*\FrY{\mathfrak{Y}}
-\newcommand*\FrZ{\mathfrak{Z}}
-
-\newcommand*\Fra{\mathfrak{a}}
-\newcommand*\Frb{\mathfrak{b}}
-\newcommand*\Frc{\mathfrak{c}}
-\newcommand*\Frd{\mathfrak{d}}
-\newcommand*\Fre{\mathfrak{e}}
-\newcommand*\Frf{\mathfrak{f}}
-\newcommand*\Frg{\mathfrak{g}}
-\newcommand*\Frh{\mathfrak{h}}
-\newcommand*\Fri{\mathfrak{i}}
-\newcommand*\Frj{\mathfrak{j}}
-\newcommand*\Frk{\mathfrak{k}}
-\newcommand*\Frl{\mathfrak{l}}
-\newcommand*\Frm{\mathfrak{m}}
-\newcommand*\Frn{\mathfrak{n}}
-\newcommand*\Fro{\mathfrak{o}}
-\newcommand*\Frp{\mathfrak{p}}
-\newcommand*\Frq{\mathfrak{q}}
-\newcommand*\Frr{\mathfrak{r}}
-\newcommand*\Frs{\mathfrak{s}}
-\newcommand*\Frt{\mathfrak{t}}
-\newcommand*\Fru{\mathfrak{u}}
-\newcommand*\Frv{\mathfrak{v}}
-\newcommand*\Frw{\mathfrak{w}}
-\newcommand*\Frx{\mathfrak{x}}
-\newcommand*\Fry{\mathfrak{y}}
-\newcommand*\Frz{\mathfrak{z}}
+\newcommand{\LowerCase}[1]{
+  \expandafter\newcommand\csname Fr#1\endcsname{\mathfrak{#1}}   }
+\DoWith\LowerCase abcdefghijklmnopqrstuvwxyz\StopDoing
 
 %Common script letters
 \newcommand*\scrt{\mathscr{T}}
@@ -1129,7 +1029,7 @@ and the boundary operator acts as
 \end{defn}
 Given that $\partial^{2}=0$ is a boundary operator, the chain complex lets us define an homology on $X$
 \begin{equation}
-	H_{j}(\Delta(X),\bbA)=\frac{\ker \partial_{j}}{\Im \partial_{j-1}}
+	\HH_{j}(\Delta(X),\bbA)=\frac{\ker \partial_{j}}{\Im \partial_{j-1}}
 \end{equation}
 which essentially classifies closed chains up to boundaries ($\partial\gamma=0$ but $\gamma\neq\partial\tilde\gamma$).
 
