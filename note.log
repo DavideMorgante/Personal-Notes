@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  12 AUG 2023 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  23 AUG 2023 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/davidemorgante/Documents/Note Mie/note.tex"
-(/Users/davidemorgante/Documents/Note Mie/note.tex
+**/Users/davidemorgante/Documents/GitHub/Personal-Notes/note.tex
+(/Users/davidemorgante/Documents/GitHub/Personal-Notes/note.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -1589,12 +1589,12 @@ Package rerunfilecheck Info: File `note.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  46446 strings out of 478268
- 1014471 string characters out of 5846348
+ 1014508 string characters out of 5846348
  1413969 words of memory out of 5000000
  63143 multiletter control sequences out of 15000+600000
  643755 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,23n,117p,3258b,1098s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,23n,117p,3269b,1098s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/baskervald/supp-ybv.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpexa.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvri8a.pfb>
 Output written on note.pdf (83 pages, 580095 bytes).
 PDF statistics:

@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex note"] 1691836130 "note.aux" "note.bbl" "note" 1691836297
+["bibtex note"] 1691836130 "note.aux" "note.bbl" "note" 1692783367
   "./jhep.bst" 1660662949 20099 891721c44a35dc9e5b1045f177450e3e ""
-  "note.aux" 1691836296 11859 6fec8f4d51729278a36c40c0bdf80bb5 "pdflatex"
+  "note.aux" 1692783367 11859 6fec8f4d51729278a36c40c0bdf80bb5 "pdflatex"
   "reps.bib" 1691578439 2373 60527cedf0eb42ea9a2b8ee6d875a56a ""
   (generated)
   "note.bbl"
   "note.blg"
-["pdflatex"] 1691836294 "/Users/davidemorgante/Documents/Note Mie/note.tex" "note.pdf" "note" 1691836297
-  "/Users/davidemorgante/Documents/Note Mie/note.tex" 1691836294 224813 51aa4a8500c3ef103d631c52f0c010b2 ""
+["pdflatex"] 1692783365 "/Users/davidemorgante/Documents/GitHub/Personal-Notes/note.tex" "note.pdf" "note" 1692783367
+  "/Users/davidemorgante/Documents/GitHub/Personal-Notes/note.tex" 1691950063 224813 51aa4a8500c3ef103d631c52f0c010b2 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/baskervald/supp-ybv.enc" 1279324236 3433 06edd2f5d570b2fb837f6ab1f32695f7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -333,11 +333,11 @@
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "dualities.pdf" 1687786375 26081 b46b3fa71a7a880d4c60fc79abc0646c ""
   "instanton.pdf" 1684169032 7301 aa4b46fa9b5dcc66637d58ce721a429d ""
-  "note.aux" 1691836296 11859 6fec8f4d51729278a36c40c0bdf80bb5 "pdflatex"
+  "note.aux" 1692783367 11859 6fec8f4d51729278a36c40c0bdf80bb5 "pdflatex"
   "note.bbl" 1691836130 783 20754aee767fa5eaf3dba79ef9a3f575 "bibtex note"
-  "note.out" 1691836296 9818 abe39dce814924bd522e1b3d3e0d0425 "pdflatex"
-  "note.tex" 1691836294 224813 51aa4a8500c3ef103d631c52f0c010b2 ""
-  "note.toc" 1691836296 4939 2e8b1bcf9f3473345fbc201bdf52fc6f "pdflatex"
+  "note.out" 1692783367 9818 abe39dce814924bd522e1b3d3e0d0425 "pdflatex"
+  "note.tex" 1691950063 224813 51aa4a8500c3ef103d631c52f0c010b2 ""
+  "note.toc" 1692783367 4939 2e8b1bcf9f3473345fbc201bdf52fc6f "pdflatex"
   "physics.sty" 1355998462 29610 a9597219b282d9c78b02393dcd7d4322 ""
   "sol.png" 1689156587 71394 c6fd284bf728cfbfabe05273009c6d60 ""
   "su2.pdf" 1687795365 18103 afdd66664be2f5c9b5053e3303e86083 ""

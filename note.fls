@@ -1,8 +1,8 @@
-PWD /Users/davidemorgante/Documents/Note Mie
+PWD /Users/davidemorgante/Documents/GitHub/Personal-Notes
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/davidemorgante/Documents/Note Mie/note.tex
+INPUT /Users/davidemorgante/Documents/GitHub/Personal-Notes/note.tex
 OUTPUT note.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
