@@ -11,6 +11,7 @@
 \usepackage{comment}
 \usepackage{mathtools}
 \usepackage{etoolbox}
+%\usepackage{parskip}
 
 
 %Bib style
@@ -153,12 +154,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \setcounter{page}{1}
-{\hypersetup{linkcolor=black}
+{\hypersetup{linkcolor=orange}
 \tableofcontents
 }
 
-\section{Spindle in AdS$_{3}$}
-\subsection{Finite $N$ corrections}
+\section{\texorpdfstring{Spindles in AdS$_3$}{Spindles}}
+\subsection{\texorpdfstring{Finite $N$ corrections}{Finite N}}
 This discussion should hold for general manifolds, but I'm not sure it should also hold for orbifolds such as the spindle. In general, for some values of the deficit angles, the spindle is a bad orbifold as per definition in the mathematical literature.
 
 Let us consider the finite $N$ contributions to the anomaly polynomial for out theories of interest. The contributions are given by the linear anomalies for the two $\U(1)$ symmetries $R$ and $F$. In particular these are going to be given by
@@ -222,7 +223,7 @@ The calculation of the $\Tr F$ contribution can be carried out similarly and amo
 \end{equation}
 
 
-\section{Spindle in AdS$_{4}$}
+\section{\texorpdfstring{Spindles in AdS$_4$}{Spindles4}}
 What we know take a stack of M2 branes in $D=11$ supergravity at a the tip of a Calabi-Yau cone $Y_{9}=C(X_{7})$. The worldvolume theory is a $d=3$ $\cN=(0,2)$ SCFT which is dual to AdS$_{4}\times X_{7}$. On the other hand, twisted compactification of M2 brane theories are dual to AdS$_{2}\times X_{9}$ where where $X_{9}$ is a fibration over $X_{7}$ of a $2$-dimensional Riemann surface $\Sigma_{g}$
 \begin{equation}
 	X_{7}\hookrightarrow X_{9}\rightarrow \Sigma_{g}
@@ -248,7 +249,7 @@ are opportunely shifted elements of the reeb vector (the vectors $v_{\pm i}$ are
 
 Observe that this result is a generalization of Zaffaroni's one, since by taking the opportune limit (4.23) Gauntlett, one recovers the $S^{3}$ partition function.
 
-\subsection{Cone over $Q^{1,1,1}$}
+\subsection{\texorpdfstring{Cone over $Q^{(1,1,1)}$}{Q111}}
 Consider the following fibration
 \begin{equation}
 	Q^{1,1,1}\hookrightarrow X_{9}\longrightarrow\Spindle
@@ -440,7 +441,7 @@ obeying the composition rule \eqref{proj} where $\alpha$ is defined modulo redef
 \end{defn}
 
 \subsection{Projective Representations and Cohomology Theory}
-We can recast the condition \eqref{proj} using cohomology theory \cite{Tachikawa2017gyf}. We define the set of $n$-maps
+We can recast the condition \eqref{proj} using cohomology theory \cite{Tachikawa:2017gyf}. We define the set of $n$-maps
 \begin{equation}
     K_n \doteq \{e^{i\phi(\cdot, \cdots, \cdot)} G \times \cdots \times G \to \U(1)\}
 \end{equation} 
@@ -751,7 +752,7 @@ between the \textbf{background gauge connection for the symmetry} $B \in \Omega^
 
 In analogy to the procedure of a gauging a symmetry ($0$-form symmetry), we can define the gauging procedure for a $p$-form symmetry
 \begin{defn}{Gauging a p-form symmetry}{}
-Gauging\footnote{This notion of gauging has been extended in \cite{Roumpedakis2022aik} taking into account the possibility to "complete" $\star j$ to a $k<d-p-1$ connection form and thus integrate the interaction on alower dimensional submanifold. This notion has been proven pivotal to construct higher symmetries from lower dimensional ones.}  a continuous $p$-form symmetry $G^{(p)}$ is an insertion in the Lagrangian of a \textit{minimal coupling term}
+Gauging\footnote{This notion of gauging has been extended in \cite{Roumpedakis:2022aik} taking into account the possibility to "complete" $\star j$ to a $k<d-p-1$ connection form and thus integrate the interaction on alower dimensional submanifold. This notion has been proven pivotal to construct higher symmetries from lower dimensional ones.}  a continuous $p$-form symmetry $G^{(p)}$ is an insertion in the Lagrangian of a \textit{minimal coupling term}
   \begin{equation}
        \delta L_{\text{Int}} \doteq \tr(B \wedge \star J)
     \end{equation}
@@ -1044,7 +1045,7 @@ Consider for example the $2$-torus $T^{2}\simeq S^{1}\times S^{1}$. This can be 
   \draw[-](2,1)--(2,0);
   \draw[<-](2,0)--(1,0) node[anchor=north] {$a$};
   \draw[-](1,0)--(0,0);
-  \draw[-](0,0)--(2,2) node[yshift=-35, xshift=-15] {$\tiny (ab)^{-1}$};
+  \draw[-](0,0)--(2,2) node[yshift=-35, xshift=-15] {$\scriptstyle{(ab)^{-1}}$};
 \end{tikzpicture}
 \end{equation}
 Here we have two $0$-chains $[a],[b]$ which are closed but $[(ab)^{-1}]=-[a]-[b]+\partial[\ldots]$. Therefore $H_{1}(T^{2})=\bbZ\oplus\bbZ$.
@@ -1102,7 +1103,7 @@ On cohomology, we can define some natural operations
 \section{Chern-Simons theory}
 This chapter is basically a relaboration and expansion of \cite[Chapter 2]{Moor} which has also been covered in a four lectures series at TASI by Greg Moore on CS-theory. 
 
-\subsection{$U(1)$-Chern Simons Theory}
+\subsection{\texorpdfstring{$U(1)$-Chern Simons Theory}{CS}}
 A Chern-Simons theory is a Gauge theory with the following inputs
 \begin{enumerate}
     \item A \textbf{Compact Lie group $G$}\footnote{Generalizations to Finite groups will be discussed In section \ref{ZNCS}}
@@ -1172,7 +1173,7 @@ Equivalently, $\mu \in  C^{\infty}(\mathcal{M}) \otimes \mathfrak{g}^*$ by usual
 \end{defn} 
 Let's see some examples of momentum map.
 
-\subsection{$\mathbb{Z}_n$-Chern Simons theory}\label{ZNCS}
+\subsection{\texorpdfstring{$\mathbb{Z}_n$-Chern Simons theory}{ZnCS}}\label{ZNCS}
 
 \section{The power of symmetry}
 We will state a lot of QM examples with very formal language, which will help understand the fancy language also for the fancier examples. Start with very limited definition of symmetry: a global symmetry means having a unitary operator $U$ that commutes with the hamiltonian $UH=HU$ (also anti-unitary for time reversal but ok). The second condition is that the operators are in a faithful linear (acts like an ordinary rep, not up to phases like states) representation (there is no symmetry op. that acts trivially on everything) of the symmetry group. 
@@ -1401,7 +1402,7 @@ Consider now $\cN=2$ in the massless case. The basic state, considering CPT, is 
 \end{table}
 CPT means, first of all, that the quantum states are real. Whatever is the algebra of observables, their rep in the Hilbert space is real from CPT. Half of the $Qs$ are zero. The non-zero ones are four $2Q,2\tilde{Q}$ hermitian, by combination of these. These four generate a Clifford algebra. {\color{red}{Qui la registrazione è tagliata, comincia a parlare dei multipletti corti e lunghi in base alle estensioni centrali della superalgebra.}}
 
-\subsection{Most basic $\cN=2$ renormalizable gauge theory}
+\subsection{\texorpdfstring{Most basic $\cN=2$ renormalizable gauge theory}{Most basic N=2}}
 Beside free chiral theory, the most basic theory is a theory of only vector multiplets. The field content is: a vector $A$, two fermions $\lambda^{1,2}$, and a complex scalar $\phi$. We can construct three theories with this: the first is by hand starting with $\cN=1$ (a $\cN=2$ hypermultiplet is a vector+chiral multiplet in $\cN=1$).
 
 Write down simplest $\cN=1$ action and claim that actually is $\cN=2$
@@ -1513,7 +1514,7 @@ and this is just the standard Higgs formula, the mass of the $W$-boson is propor
 
 The factor of $i$ in the central charge for the magnetic charge is very important since in lorentz signature the curvature field is complex and is relevant since in the mass, without the factor of $i$, we would have had a mixed term between electric and magnetic charge which is odd under CP since the two charges transform in an opposite way. We could have violated CP by turning on a $\theta$-angle. This would not spoil susy, but it the cross term would be there since CP is explicitly broken.
 
-\subsection{The other way of constructing $\cN=2$ theory}
+\subsection{\texorpdfstring{The other way of constructing $\cN=2$ theory}{Other Way}}
 We are going to consider minimal SYM in $d$ dimensions. The only fields are the gauge field $A_{\mu}$ and the fermion $\lambda$. We take the smallest fermion in $d$ dimensions which is allowed by Lorentz invariance. The lagrangian is
 \begin{equation}
 	\cL = \frac{1}{e^{2}}\int \dd[4]{x}\Tr\qty(F_{\mu\nu}^{2}+\bar\lambda i\slashed{D}\lambda)
@@ -1855,7 +1856,7 @@ The last one is the monodromy due to a massless dyon.
 
 We found a flat $\SL(2,\bbZ)$ bundle on the $u$ plane with two points removed.
 
-\section{$\cN=2$ Dualities}
+\section{\texorpdfstring{$\cN=2$ Dualities}{Gaiotto theories}}
 We study $\cN=2$ gauge theories which have exactly marginal deformations. The starting point is typically a UV lagrangian and the purpose of the game is to understand the properties of the theory by exploring the moduli space of vacua. We want to see what happens if also the UV theory has a moduli-space of parameters which we can play with.\\
 Of course for each point we have a theory and we can ask what is the IR dynamics by exploring the moduli-space of vacua. So to each point of the UV moduli-space of parameters we have some moduli space for the IR description fibered over it.
 
@@ -2136,10 +2137,10 @@ There is a very cute way to describe the cotangent bundle to a Riemann surface. 
 \end{equation}
 Quadratic differentials with single poles are just deformations in the coulomb branch. If one includes mass parameters on the punctures, the differential should have a double pole on the puncture.
 
-\section{$q$-deformed YM}
+\section{\texorpdfstring{$q$-deformed YM}{qdefYM}}
 This theory is relevant for the $2d-4d$ correspondence where a $6d$ theory is put on a product space $X_4\times C_2$ and compactified either on the first factor or on the second one. In the partition function of the $6d$ theory is a nice SUSY partition function that does not depende on the sizes of the two factors, then we expect the lower dimentional partition functions to match.\\
 Such $2d$ theories are, for example, the Liouville-Toda theory or the $q$-deformed YM.
-\subsection{$2d$ Yang-Mills}
+\subsection{\texorpdfstring{$2d$ Yang-Mills}{2dYM}}
 In $2d$ there is no physical propagating degrees of freedom. Take $G$ to be a non-abelian Lie group. The action is of the form
 \begin{equation}
 	S\propto=\frac{1}{e^2}\int \dd[2]{x}\sqrt{\det g}\Tr F^2

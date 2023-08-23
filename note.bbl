@@ -1,6 +1,12 @@
 
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
 
+\bibitem{Tachikawa:2017gyf}
+Y.~Tachikawa, \emph{{On gauging finite subgroups}},
+  \href{https://doi.org/10.21468/SciPostPhys.8.1.015}{\emph{SciPost Phys.}
+  {\bfseries 8} (2020) 015} [\href{https://arxiv.org/abs/1712.09542}{{\ttfamily
+  1712.09542}}].
+
 \bibitem{percacci}
 R.~Percacci, \emph{{QFT II Lecture Notes}},  2020.
 
@@ -12,6 +18,11 @@ M.~Marcos., \emph{Instantons and Large N: An Introduction to Non-Perturbative
 R.~Rattazzi, \emph{{The Path Integral approach to Quantum Mechanics - Lecture
   Notes for Quantum Mechanics IV}},  2009,
   \href{https://userswww.pd.infn.it/~feruglio/rattazzi.pdf}{https://userswww.pd.infn.it/~feruglio/rattazzi.pdf}.
+
+\bibitem{Roumpedakis:2022aik}
+K.~Roumpedakis, S.~Seifnashri and S.-H. Shao, \emph{{Higher Gauging and
+  Non-invertible Condensation Defects}},
+  \href{https://arxiv.org/abs/2204.02407}{{\ttfamily 2204.02407}}.
 
 \bibitem{Hat}
 A.~Hatcher, \emph{{Algebraic topology}}. Cambridge Univ. Press, Cambridge,

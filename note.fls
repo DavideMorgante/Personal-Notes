@@ -1740,6 +1740,14 @@ INPUT ./note.bbl
 INPUT note.bbl
 INPUT ./note.bbl
 INPUT note.bbl
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/kpfonts/jkpttmn8t.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/kpfonts/jkpttmn8t.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/kpfonts/jkpttmn8r.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/kpfonts/jkpttmne.tfm
 INPUT note.aux
 INPUT ./note.out
 INPUT ./note.out
@@ -1757,6 +1765,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvb8a.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvr8a.pfb

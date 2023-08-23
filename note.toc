@@ -1,7 +1,7 @@
-\contentsline {section}{\numberline {1}Spindle in AdS$_{3}$}{2}{section.1}%
+\contentsline {section}{\numberline {1}Spindles in AdS$_3$}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Finite $N$ corrections}{2}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Spindle in AdS$_{4}$}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Cone over $Q^{1,1,1}$}{5}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Spindles in AdS$_4$}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Cone over $Q^{(1,1,1)}$}{5}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Generalized and Non-invertible symmetries}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}New way of looking at symmetries}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Projective Representations in Quantum Mechanics}{7}{subsection.3.2}%
