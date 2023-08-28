@@ -103,6 +103,7 @@
 %For cohomology group macros
 \newcommand\HH{\mathrm{H}}
 \newcommand\cHH{\check{\mathrm{H}}}
+\newcommand\Hom{\mathrm{Hom}}
 
 %For correct infinitesimals.
 \newcommand*\diff{\mathop{}\!\mathrm{d}}
@@ -1100,6 +1101,94 @@ and
 whose elements are flat connections which are not pure gauge.
 
 On cohomology, we can define some natural operations
+\begin{defn}{Cup-Product}{}
+	Given a, possibly non-degenerate, pairing between abelian groups
+	\begin{equation}
+		(\;,\;):\bbA\times \bbB \rightarrow \bbD
+	\end{equation}
+	the \textit{cup product} is a product defined on co-cochains
+	\begin{equation}
+		\cup:C^j(X,\bbA)\times C^k(X,\bbB)\rightarrow C^{j+k}(X,\bbD)
+	\end{equation}
+	such that
+	\begin{equation}
+		(\mu \cup \nu)_{i_0,\ldots,i_{j+k}}\equiv (\mu_{i_0,\ldots, i_j},\nu_{i_j,\ldots, i_{j+k}})
+	\end{equation}
+\end{defn}
+To have lift this to a good product in cohomology, we need it to be graded commutative. In general, given $A\in C^j, B\in C^k$
+\begin{equation}
+	\dd(A\cup B)=\dd{A}\cup \dd{B}+(-1)^j A\cup\dd{B}
+\end{equation}
+The product as defined on cochains is not, generally, graded commutative but the following
+\begin{equation}
+	A\cup B=(-1)^{jk}B\cup A+\dd{(A\cup_1 B)}+\dd{A}\cup_1 B+(-1)^j A\cup_1\dd{B}
+\end{equation}
+is graded commutative. The $\cup_1$ symbol is the Steenrod cup product and is another well defined product on cochains
+\begin{equation}
+	\cup_1:C^j\times C^k\rightarrow C^{j+k-1}
+\end{equation}
+This product is, on cohomology, graded commutative since $\dd{A}=0$, so we have defined a sensible product in cohomology.
+
+Examples of reasonable parings are the following
+\begin{itemize}
+	\item Consider any abelian group $\bbA$ and $\bbB=\bbA^\vee\equiv \Hom(\bbA,\U(1))$ it's Pontrijagin dual. Elements of the Pontrijagin dual are just the characters of $\bbA$. Then the pairing is just given by
+	\begin{equation}
+		(a,\chi)=\chi(a)
+	\end{equation}
+	\item If both groups are $\bbZ_n$ then
+	\begin{equation}
+		(x,y)=xy\mod n
+	\end{equation}
+\end{itemize}
+\subsubsection{Poincarè duality}
+Poincarè duality over some space is an equivalence, if it exists, relating cohomology and homology on that space.\\
+To do so, we need to introduce a method of adjoining chains and cochains. This is given by the cap product
+\begin{defn}{Cap-product}{}
+	Let $X$ be a topological space nd $\bbA$ some abelian group. The \textit{cap-product} is a bilinear map on homology and cohomology
+	\begin{equation}
+		\cap:H_j(X,\bbA)\times H^k(X,\bbA)\rightarrow H_{j-k}(X,\bbA),\qquad j>k
+	\end{equation}
+	defined by contracting a chain $\sigma\in C_j(X,\bbA)$ with a cochain $\mu\in C^k(X,\bbA)$ in the following manner
+	\begin{equation}
+		\sigma \cap \mu=\mu(\left.\sigma\right|_{[i_0,\ldots,i_k]})\left.\sigma\right|_{[i_k,\ldots,i_j]}
+	\end{equation}
+	Here the notation $\left.\sigma\right|_{[i_0,\ldots,i_k]}$ indicates the restriction of the simplicial map $\sigma$ to its face spanned by the vectors of the base.
+\end{defn}
+With this product at hand we can state the following theorem
+\begin{thm}{Poincaré duality}{}
+	If $X$ is a closed oriented $n$-mainifold with fundamental class $[X]\in H_n(X,\bbA)$, then the map 
+	\begin{equation}
+		\phi: H^k(X,\bbA)\rightarrow H_{n-k}(X,\bbA)
+	\end{equation}
+	defined by
+	\begin{equation}
+		\phi(\alpha)=[X]\cap \alpha
+	\end{equation}
+	is an isomorphism for all $k$.
+\end{thm}
+The relevance of this theorem in physics is that given a network of defects we have an associated gauge field and viceversa. So from $\gamma\in H_{d-p-1}(X,\bbA)$ we fin an $A\in H^{p+1}(X,\bbA)$. 
+
+The idea of the proof is as follows: consider a triangulation $\Delta(X)$ and its dual $\overset{\vee}{\Delta}(X)$ constructed like a dual Bravais lattice in condensed matter
+\begin{equation}
+	\begin{tikzpicture}[thick]
+		\path [fill=lightgray,draw] (0,-.5) to (2,0) to (1,2) to (0, -.5);
+		\filldraw[black] (0,-.5) circle (2pt) node[]{};
+		\filldraw[black] (2,0) circle (2pt) node[]{};
+		\filldraw[black] (1,2) circle (2pt) node[]{};
+
+		\path [fill=lightgray,draw] (5,-.5) to (7,0) to (6,2) to (5, -.5);
+		\draw[-, red] (7,-.7)--(6,0.5);
+		\draw[dashed, red] (6,0.5)--(5.59,0.99);
+		\draw[-, red] (5.59,0.99)--(5,1.7);
+	  	\filldraw[black] (5,-.5) circle (2pt) node[]{};
+	  	\filldraw[black] (7,0) circle (2pt) node[]{};
+	 	\filldraw[black] (6,2) circle (2pt) node[]{};
+		
+
+		\node at (1,-1.5) {$p$-simplex};
+		\node at (6,-1.5) {$(d-p)$-simplex in red};
+  \end{tikzpicture}
+\end{equation}
 \section{Chern-Simons theory}
 This chapter is basically a relaboration and expansion of \cite[Chapter 2]{Moor} which has also been covered in a four lectures series at TASI by Greg Moore on CS-theory. 
 
