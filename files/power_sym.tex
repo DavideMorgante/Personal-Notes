@@ -1,0 +1,169 @@
+\chapter{The power of symmetry}
+We will state a lot of QM examples with very formal language, which will help understand the fancy language also for the fancier examples. Start with very limited definition of symmetry: a global symmetry means having a unitary operator $U$ that commutes with the hamiltonian $UH=HU$ (also anti-unitary for time reversal but ok). The second condition is that the operators are in a faithful linear (acts like an ordinary rep, not up to phases like states) representation (there is no symmetry op. that acts trivially on everything) of the symmetry group. 
+
+Every op. $O_{i}$ is mapped as 
+\begin{equation}
+	O_{i}\rightarrow U O_{i}U^{-1}=\sum_{j}R_{ij}(U)O_{j}
+\end{equation}
+where $R$ is the representation matrix of the symmetry group.
+
+The modern way to talk about symmetry is to pretend that we couple the system to background gauge fields for the symmetry (it is not gauge, is global, acts on Hilbert space and operators). We consider the system as one point in a family of theories labelled by a background gauge field. The object of interest is 
+\begin{equation}
+	Z(A)=\int e^{-S(A)}
+\end{equation}
+where $A$ is a vector potential to the symmetry, for example $\U(1)$, and does not have to satisfy any classical eom. Then we ask what happens under a gauge transformation $A\rightarrow A^{g}$, is the partition function gauge invariant? It could happen that
+\begin{equation}
+	Z(A^{g})=Z(A)e^{-i\omega(A,g)}
+\end{equation}
+maybe we should add some terms to the action to get rid to that phase. If it is not possible, than we say that there is an anomaly. This has nothing to do with field theory, fermions and whatever, this is the minimal way of thinking about it.
+
+The simplest example is the following: a single qbit or equivalently a $2$-level system or a complex fermion in QM
+\begin{equation}
+	i\int\psi^{\dagger}\partial_{t}\psi
+\end{equation}
+What is the global symmetry? Maybe a $\U(1)$ that rotates the fermions, but also charge conjugation $\bbZ_{2}$ and together they give $\OO(2)$. Option number two, we have a 2 dimensional Hilbert space so we can perform any $2\times 2$ commutes with the hamiltonian which is $H=0$ and so one might think that the symmetry is $\U(2)$. But we need to consider that the representation should be linear so we have to mod out by a $\U(1)$ phase of the projective representation on states $\U(2)/\U(1)=\SO(3)$. Notice that the symmetry is bigger than before. This is happens usually since the lagrangian does not exhibit the full symmetry of the system (this phenomenon is known as quantum symmetry).
+
+Symmetries act projectively on the Hilbert space: we have a symmetry operator
+\begin{equation}
+	S(\vec{r})=e^{i\vec{r}\cdot\vec{s}},\qquad \vec{s}=\frac{1}{2}\vec{\sigma}
+\end{equation}
+this is how the $\SU(2)$ is realized on the Hilbert space. Since the action is by conjugation, we ask what are the conjugacy classes of $\SO(3)$. We limit ourselves
+\begin{equation}
+	g(\xi)=e^{i\xi s^{z}},\qquad g(\xi)\sim g(-\xi),\qquad g(\xi+2\pi)=-g(\xi)
+\end{equation}
+The action on the Hilbert space is with the minus which means that the symmetry is realized by the double cover $\SU(2)$. Notice that the adjoint action on the operators does not see the minus sign.
+
+Now we take a gauge field $A$ for the $\SO(3)$ symmetry (it only has a time component in QM) and pick a gauge such that $A$ does not depend on $t$ (we take euclidean time)
+\begin{equation}
+	Z(\xi)= \Tr e^{-\beta H} g(\xi)=2\cos\qty(\frac{\xi}{2})
+\end{equation}
+since we have two states with opposite spin and the Hamiltonian is zero. This works for $Z(-\xi)=Z(\xi)$ but $Z(\xi+2\pi)=-Z(\xi)$. But what if we use
+\begin{equation}
+	g(\xi)=e^{i\xi s^{z}}\rightarrow e^{i\xi(s^{z}+\frac{1}{2})}
+\end{equation}
+by doing this there is not the minus sign anymore. But now I messed up the initial formula for $Z(\xi)$. Such a redefinition is called adding a counterterm and the freedom of moving the anomaly around is the freedom of adding counterterms. So here we cannot satisfy the full symmetry $\SO(3)$.
+
+Consider now another example: the rotor. We start with the lagrangian
+\begin{equation}
+	L=\frac{1}{2}\dot{q}^{2}+\frac{\theta}{2\pi}\dot{q},\qquad q\simeq+2\pi
+\end{equation}
+the global symmetries are
+\begin{equation}
+\begin{split}
+	&\U(1):q\rightarrow q+\alpha,\qquad\text{Is not }\bbR\text{ since }q\text{ is circle valued}\\
+	&\bbZ_{2}:q\rightarrow -q,\quad \theta=0 \mod \pi
+\end{split}
+\end{equation}
+These two combine into
+\begin{equation}
+	\OO(2)=U(1)\rtimes\bbZ_{2}
+\end{equation}
+so that $\bbZ_{2}$ acts on $\U(1)$. Let us do some QM
+\begin{equation}
+	p=\dot{q}+\frac{\theta}{2\pi}
+\end{equation}
+and
+\begin{equation}
+	H=p\dot q-L=\frac{1}{2}\qty(p-\frac{\theta}{2\pi})^{2}
+\end{equation}
+and the eigenvalues of $p\in \bbZ$ since $q$ is circle valued. The spectrum of the hamiltonian is
+\begin{equation}
+	E_{n}=\frac{1}{2}\qty(n-\frac{\theta}{2\pi})^{2}
+\end{equation}
+where we have degenerate states at $\theta=\pi,3\pi,\ldots$. Let us go over the simmetries
+\begin{equation}
+\begin{split}
+	&q\rightarrow q+\alpha, \qquad\text{charge }Q=P\\
+	&q\rightarrow RqR^{-1}=-q\\
+	&RQR^{-1}=R(\dot{q}+\frac{\theta}{2\pi})R^{-1}=-Q+2\frac{\theta}{2\pi}
+\end{split}
+\end{equation}
+For $\theta=2\pi$ we can redefine the charge $Q\rightarrow Q-\frac{\theta}{2\pi}$ but for $\theta=2\pi$ I cannot do it. For $\theta=0\mod 2\pi$ the symmetry is $\OO(2)$ and is realized linearly but for $\theta=\pi\mod 2\pi$ the symmetry is anomalous, is still $\OO(2)$ but is realized projectively. 
+
+In terms of gauge fields
+\begin{equation}
+	L=\frac{1}{2}\qty(\dot{q}+A)^{2}+\frac{\theta}{2\pi}\qty(\dot{q}+A)+k A
+\end{equation}
+where the last part is a Chern-Simmons term in QM. Choose a gauge where $A$ is constant and compute the partition function: for $\theta=\pi$ in euclidean the only gauge invariant information is the following 
+\begin{equation}
+	e^{i\oint A_{euc}}=e^{i\xi}
+\end{equation}
+and compute
+\begin{equation}
+	Z(\xi)=\Tr e^{-\beta H}e^{i\xi (n+k)}=\sum_{n=-\infty}^{\infty}e^{-\frac{\beta}{2}\qty(n+\frac{1}{2})^{2}}e^{i\xi(n+k)}
+\end{equation}
+Moreover
+\begin{equation}
+	Z(\xi+2\pi)=Z(\xi),\qquad Z(-\xi)=Z(\xi)e^{-i(2k+i)\xi}
+\end{equation}
+so it acquires a phase which depends on the background gauge field $\xi$. So the $\bbZ_{2}$ is anomalous and is not realised properly. What are we going to do about it? We have many options
+\begin{enumerate}
+	\item That's it, it is what it is, $k\in\bbZ$
+	\item Set $k=-1/2$. Now the $\bbZ_{2}$ is good but the $\U(1)$ is note
+	\item Set $k=0$ and add a bulk $\exp\left(i\frac{\theta}{2\pi}\int F\right)$, so we add a $1$-dimensional space other than time and in the bulk there are only classical gauge fields which only keep track of the symmetries. In condensed matter this is called SPT (the system in the bulk is almost trivial, there are no dof but there is still a dependence on $F$). Even at $\theta=\pi$ by changing how we define $A$ in the bulk, we could get a minus sign which is what we are interested in.
+\end{enumerate}
+Now we want to go to the low energy theory. In our Hilbert space we have an infinite number of states and we are interested in the low lying states. At $\theta=\pi$ we have two degenerate states, we consider the $\beta\rightarrow\infty$ limit on the partition function and consider the saddle point
+\begin{equation}
+	Z(\xi)\rightarrow e^{-\frac{\beta}{8}}e^{i\xi k}(1+e^{i\xi})
+\end{equation}
+and now we can consider different values of $k$ and see what happens. For the two interesting values of $k$ the behavior is the same as the qubit system. There is one crucial difference: the rotor system has $\OO(2)$ symmetry, but the two level system as $\SO(3)$ symmetry. This is a general statement, the symmetries of a system in the IR and UV do not have to be the same.
+\begin{equation}
+	G_{UV}\xrightarrow{\phi} G_{IR}
+\end{equation}
+the map might not be so trivial $\ker \phi \neq\{0\}$ since some symmetries in the UV might act trivially in the IR. In the case of the rotor we have an emergent symmetry (in condensed matter) or accidental symmetry (in HEP)
+
+We would like $Z$ to be a function on the parameter space: a circle $\xi$ modded out by $\bbZ_{2}$, so is like a line segment. We would like the partition function to be an actual function of $\xi$ but we cannot do that. Even if the parameter space is a segment, the partition function is not actually a function of the segment, it is a chapter of a line bundle over this space. The minus sign reflects that.
+
+There is another thing: the system has an anomalous $\OO(2)$ symmetry. The anomaly guarantees that all the states are in a projective rep and the projectiveness has to be the same because the operators are in linear representations. Every state is two-fold degenerate. The IR observer says that every state has to be two-fold degenerate so also the ground state has to be. In some cases this is not trivial to see from UV to IR. The right way is to see that anomalies have to match between UV and IR.
+
+Consider again the rotor system but add a $\bbZ_{2}$-invariant potential $V(q)$ which is also invariant under a shift of $\pi$ in $q$. For example, one that works is
+\begin{equation}
+	V(q)=\cos 2q+5.4\cos 4q
+\end{equation}
+In general now I cannot solve the system. What happens to the symmetries? For $\theta=0 \mod \pi$, the symmetry is $\bbZ_{2}\times\bbZ_{2}$ with $q\rightarrow -q$ and $q\rightarrow q+\pi$ where, again $q$ is circle valued. For $\theta=\pi$ there is an anomaly between the two $\bbZ_{2}$. So the symmetry is realized projectively. Every state is two-fold degenerate. In the IR we don't know how to diagonalize the Hamiltonian but still we know that the ground state will be degenerate. So the system has to be realized projectively even in the IR.
+
+A realization of the $\bbZ_{2}^{2}$ is given by $\sigma^{x},\sigma^{y}$ since consider the generators of the two $\bbZ_{2}$ beign $A,B$. These have to satisfy the relations
+\begin{equation}
+	A^{2}=B^{2}=1,\qquad AB=-BA
+\end{equation}
+where the second one comes from projectiveness. We see that the two Pauli matrices satisfy this relations since they anticommute and square to one. All the representations are two dimensiona. There is no one-dimensional representation since if we take $A=B=\pm1$ the second equation is not solved.
+
+\section{Higher symmetries}
+When the operators are supported on higher dimensional manifolds, the group action is preserved but the unitary operators associated with the symmetries live on a higher codimension manifold. When the symmetry is continuous, there is a direct definition of the unitary in terms of the conserved currents.\\
+These symmetries act exactly as normal symmetries and are useful for much of the same reasons.
+
+We give many examples: the first one is a free field theory, a $\U(1)$ gauge theory in $3+1$ dimensions. The two $1$-form symmetries are $\U(1)^{2}$ which give a current that generates the unitary. The two currents are 
+\begin{equation}
+	\frac{2}{g^{2}} \star F,\qquad \frac{1}{2\pi} F
+\end{equation}
+Integrating it over a surface we get the electric and magnetic fluxes. How do they act on different fields? Just compute the commutation relations. The electric symmetry just shifts the vector potential
+\begin{equation}
+	A\rightarrow A+\xi,\qquad \dd{\xi}=0
+\end{equation}
+The magnetic symmetry does not act in a simple way on $A$, but acts simply on the dual photon by shift again. The operators are
+\begin{equation}
+	U_{g_{\alpha}=e^{i\alpha},g_{\eta}=e^{i\eta}}(M)=e^{i\frac{\alpha}{2\pi}\int_{M}F+i\frac{2\eta}{g^{2}}\int_{M}\star F}
+\end{equation}
+it is called Gukov-Witten operator. The charged objects are Wilson and 't Hooft lines $W_{n}(L),H_{m}(L)$ where $n,m$ are electric and magnetic charges of the lines.
+
+The next example is in $2+1$ dimensions and is a $\U(1)$ Chern-Simons theory
+\begin{equation}
+	\cL=\frac{N}{4\pi}\int A\dd{A}
+\end{equation}
+This theory has a $1$-form symmetry with the shift by a constant. By doing this, we need the lagrangian to be gauge invariant
+\begin{equation}
+	A\rightarrow A+\frac{1}{N}\epsilon,\qquad \dd{\epsilon}=0
+\end{equation}
+and moreover $\epsilon$ has integer periods. The $1$-form is therefore $\bbZ_{N}$. Here the lines also carry an electric charge, but is a slightly different charge. By looking at the EOM of the field with a source, we say that the magnetic field is a delta function on the source and consequently by going around the line we get an holonomy depending on the charge. The charge operator is also the charged operator. This is a statement that the $\bbZ_{N}$ symmetry is anomalous. Various subgroups could be anomaly free.
+
+Next example is a $3+1$ dimensional $\U(1)$ gauge theory with a scalar field with charge $N$. The magnetic symmetry remains the same since $F$ is still a conserved charge. But the electric symmetry now is broken since when we shift $A$ in the covariant derivative, the kinetic term for the scalar field is not invariant unless we shift by something which is $N$-times the basic unit. So the electric symmetry is a $\bbZ_{N}$. The charged objects are the Wilson lines, but the theory has also dynamical scalar fields with charge $N$. The line operators can now attach to the scalar fields.
+
+Next example is $3+1$ dimensional $\SU(N)$ gauge theory without matter. Now the electric symmetry is $\bbZ_{N}$ and no magnetic symmetry. We can shift the gauge fields by a flat $\bbZ_{N}$ connection. Take any lattice configuration and we put at every link an $\SU(N)$ matrix, then we multiply each link by $e^{2\pi i/N}\mathbf{1}$. We do it in such a way that the plaquettes do not change. This is a symmetry.\\
+Every line carries a rep of $\SU(N)$ but we can attach a gluon to it and change it's charge, so we are just interested in the N-ality of the line.\\
+There are no t' Hooft operators, they have to be attached to surfaces, so there is no magnetic symmetry.
+
+Next example is $3+1$ dimensional $\SU(N)$ with quarks in the fundamental rep $\mathbf{N}$. There is still no magnetic symmetry and the electric symmetry is screened, therefore there is no electric symmetry also. At large N, the quarks do not participate in the dynamics so the $1$-form symmetries comes back.
+
+Next example is a $3+1$ dimensional $\text{PSU}(N)=\SU(N)/\bbZ_{N}$ (we have more possible bundles where the transition functions are closed) and can be thought of as gauging the $1$-form in the other example. In this theory we cannot add the quarks since the $\text{PSU}(N)$ does not have a rep which is charged under $\bbZ_{N}$. We also get a quantum symmetry\footnote{From the orbifold point of view this is the symmetry that acts on the twisted sectors} which is a $\bbZ_{N}$  $1$-form magnetic symmetry. The 't Hooft lines come back.
+
+Last example is the $\bbC P^{n}$ model (sigma model with target space this manifold). This has instantons since this manifold has non-trivial $2$-cycles. in $2+1$ dimensions it has skyrmions. In $3+1$ dimensions there are strings and therefore there is a $1$-form symmetry. $\bbC P^{n}$ has a Kahler form which can be integrated to find the charge. Here there is no gauge field.

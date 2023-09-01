@@ -1,0 +1,195 @@
+
+\chapter{Index stuff}
+The single letter index for a free chiral superfield charged under some flavour symmetry is given by
+\begin{equation}
+	i_{\chi}(p,q,y)=\frac{y-\frac{pq}{y}}{(1-p)(1-q)}
+\end{equation}
+The full index is given by the plethystic exponential of this
+\begin{equation}
+\begin{split}
+	I_{\chi}(p,q,y)&=\exp\qty[\sum_{n=1}^{\infty}\frac{1}{n}\frac{y^{n}-p^{n}q^{n}/y^{n}}{(1-p^{n})(1-q^{n})}]=\exp\qty[\sum_{n=1}^{\infty}\frac{1}{n}(y^{n}-p^{n}q^{n}/y^{n})\sum_{m,\ell\ge0}q^{nm}q^{n\ell}]\\
+	&=\prod_{m,\ell\ge0}\exp\qty[\sum_{n=1}^{\infty}\frac{1}{n}(yp^{m}q^{\ell})^{n}-\sum_{n=1}^{\infty}\frac{1}{n}\qty(\frac{p^{m+1}q^{\ell+1}}{y})^{n}]\\
+	&=\prod_{m,\ell\ge0}\exp\qty[-\log\qty(1-yp^{m}q^{\ell})+\log\qty(1-\frac{p^{m+1}q^{\ell+1}}{y})]\\
+	&=\prod_{m,\ell\ge0}\exp\qty[\log\qty(\frac{1-p^{m+1}q^{\ell+1}/y}{1-yq^{m}p^{\ell}})]=\prod_{m,\ell\ge0}\frac{1-p^{m+1}q^{\ell+1}/y}{1-yq^{m}p^{\ell}}=\Gamma(y;p,q)
+\end{split}
+\end{equation}
+Where we used the definition of the elliptic gamma function
+\begin{equation}
+	\Gamma(z;p,q)=\prod_{m,\ell\ge0}\frac{1-p^{m+1}q^{\ell+1}/z}{1-p^{m}q^{\ell}z}
+\end{equation}
+for which, some relevant properties are
+\begin{equation}
+\begin{split}
+	&\Gamma(z;p,q)\Gamma(pq/z;p,q)=1\\
+	&\Gamma(pz;p,q)=\theta(z;p)\Gamma(z;p,q)\\
+	&\Gamma(qz;p,q)=\theta(z;p)\Gamma(z;p,q)\\
+	&\theta(z;q)=\prod_{n\ge0}(1-q^{n}z)(1-q^{n+1}/z)
+\end{split}
+\end{equation}
+The single letter index for a free vector field, which transforms in the adjoint representation of the guage group, is given by
+\begin{equation}
+	i_{V}(p,q,y)=\frac{-p-q+2pq}{(1-p)(1-q)}\chi_{adj}(a_{i})=\qty(-\frac{p}{1-p}-\frac{q}{1-q})\qty(\sum_{\alpha}a^{\alpha}+N)
+\end{equation}
+For a gauge theory, to find the full index, we have to integrate over the gauge group to get gauge invariant operators. This is acheived by means of the Haar measure of the gauge group. This can be done by computing the integral over the maximal torus, Cartan subalgebra, of the group with an additional Jacobian factor which is fiven by the Van-der-Monde determinant $\Delta(a_{i})=(\text{PE}\qty[\sum_{\alpha}a^{\alpha}])^{-1}$
+\begin{equation}
+	I(b_{k};p,q)=\frac{1}{\abs{W}}\oint\qty(\prod_{i=1}^{N}\frac{\dd{a_{i}}}{2\pi i a_{i}})\Delta(a_{i})I_{V}(a_{i};p,q)\prod_{\chi_{i}}I_{\chi_{i}}(a_{i},b_{k};p,q)
+\end{equation}
+The full index for a vector multiplet can be found from 
+\begin{equation}
+\begin{split}
+	\Delta(a_{i})I_{V}(a_{i};p,q)&=\text{PE}\qty[\qty(-\frac{p}{1-p}-\frac{q}{1-q})\chi_{adj}(a_{i})-\sum_{\alpha}a^{\alpha}]\\
+	&=\exp\qty(\sum_{n=1}^{\infty}\frac{1}{n}\frac{p^{n}q^{n}-1}{(1-p^{n})(1-q^{n})}\sum_{\alpha}a^{\alpha})\exp\qty(N\sum_{n=1}^{\infty}\frac{1}{n}\qty(-\frac{p^{n}}{1-p^{n}}-\frac{q^{n}}{1-q^{n}}))\\
+	&=\prod_{m,\ell\ge0}\qty(\prod_{\alpha}\exp\qty(\sum_{n=1}^{\infty}\frac{1}{n}(p^{n}q^{n}-1)p^{nm}q^{n\ell}a^{\alpha}))\exp\qty(\sum_{n=1}^{\infty}\frac{1}{n}(-p^{n(m+1)}-q^{n(\ell+1)}))^{N}\\
+	&=\qty(\prod_{\alpha}\Gamma(pq a^{\alpha}))(p;p)_{\infty}^{N}(q;q)_{\infty}^{N}
+\end{split}
+\end{equation}
+Therefore for a gauge theory with some chiral superfields, a vector field and some flavour symmetries
+\begin{equation}
+	I(b_{k};p,q)=\frac{(p;p)_{\infty}^{N}(q;q)_{\infty}^{N}}{\abs{W}}\oint\prod_{i=1}^{N}\frac{\dd{a_{i}}}{2\pi i a_{i}}\qty(\prod_{\alpha}\Gamma(pqa^{\alpha}))\prod_{\phi_{i}}\prod_{\substack{\rho\in R_{i}^{G}\\ \rho^{\prime}\in R^{\prime F}_{i}}}\Gamma((pq)^{r_{i}/2}a^{\rho}b^{\rho^{\prime}})
+\end{equation}
+\section{Index of $\SU(2)$ and Seiberg duality}
+The field content is the following
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c||c|c|c|c|}
+	\hline
+	&$\SU(2)$ &$\SU(3)_{u}$ & $\SU(3)_{v}$ & $\U(1)_{b}$ & $\U(1)_{R}$\\
+	\hline
+	$Q$ & $2$ & $\bar{2}$ & $1$ & $1$ &$r$\\
+	$Q$ & $\bar{2}$ & $1$ & $2$ & $-1$ &$r$\\
+	\hline\hline
+	$M$ & $-$ & $\bar{2}$ & $2$ & $0$ &$2r$\\
+	\hline
+\end{tabular}
+\end{table}
+The first index is given just by the vector multiplet of the $\SU(2)$ gauge and the two quarks. The anomaly-free R-charge is just
+\begin{equation}
+	\Tr U(1)_{R}=\frac{1}{2}\times 2\times 3 \times (r-1)+2=0\implies r=\frac{1}{3}
+\end{equation}
+therefore, the index is
+\begin{equation}
+	I_{\SU(2)}=(p;p)_{\infty}(q;q)_{\infty}\oint\frac{\dd z}{2\pi i z}\frac{1}{\Gamma(z^{\pm 2})}\prod_{i=1}^{3}\Gamma\qty((pq)^{1/6}b u_{i}z^{\pm1})\Gamma\qty((pq)^{1/6}b^{-1} v_{i}z^{\pm1})
+\end{equation}
+where $b$ is the fugacity for the baryonic symmetry. The anomaly-free condition of the R-charge is given by the following balancing condition
+\begin{equation}
+	\prod_{i=1}^{6}(pq)^{1/6}t_{i}=pq
+\end{equation}
+where $t_{i}=\{b u_{i},b^{-1}q_{i}\}$. This theory is Seiberg dual to $15$ singlets chiral fields (in the antisymmetric of $\SU(6)$)\footnote{Notice that $\SU(2)\cong \USp(2)$.} with a superpotential that imparts each of them R-charge $2/3$.The index of this theory is given by
+\begin{equation}
+	I=\prod_{i<j}\Gamma((pq)^{1/3}t_{i})
+\end{equation}
+The superpotential is just the Pfaffian of $M$.
+\section{Index for $\cN=2$}
+One can construct the single letter indices for $\cN=2$ multiplets starting from their $\cN=1$ decomposition and noting that the $\cN=2$ index has an additional fugacity related to the bigger R-symmetry group.
+
+An $\cN=2$ hypermultiplet consists of a pair of two $\cN=1$ chiral multiplets which transform in conjugate representations of the global symmetry. Therefore the single letter index for an $\cN=2$ hyper is just
+\begin{equation}
+	i_{H}(a_{i};p,q,x)=\frac{(pq)^{\frac{1}{3}}x^{\frac{1}{2}}-(pq)^{\frac{2}{3}}x^{-\frac{1}{2}}}{(1-p)(1-q)}\qty(\chi_{R}(a_{i})-\chi_{\bar{R}}(a_{i}))
+\end{equation}
+The fugacity $x$ is associated to the Cartan generator of the $\U(2)\cong\SU(2)_{R}\times \U(1)_{r}$ R-symmetry $R+\frac{1}{2}r$.
+
+An $\cN=2$ vector multiplet consists of a $\cN=1$ chiral multiplet $\phi$ and a vector multiplet $V$ both, of course, in the adjoint representation of the gauge group. It's single letter index is given by
+\begin{equation}
+	i_{V}(a_{i};p,q,x)=\qty(\frac{(pq)^{\frac{1}{3}}x^{-1}-(pq)^{\frac{2}{3}}x}{(1-p)(1-q)}+\frac{-p-q+2pq}{(1-p)(1-q)})\chi_{adj}(a_{i})
+\end{equation}
+
+\subsection{Susy limits}
+There are some useful limits for $\cN=2$ theories to count not all short multiplets but only some special ones. Use the new variable $x\rightarrow (pq)^{-2/3}t$ so that
+\begin{equation}
+\begin{split}
+	I(p,q,t)&=\Tr (-1)^{F}p^{\frac{1}{3}(\Delta+j_{1})+j_{2}-\frac{2}{3} (R+\frac{1}{2} r)}q^{\frac{1}{3}(\Delta+j_{1})-j_{2}-\frac{2}{3}(R+\frac{1}{2}r)}t^{R+\frac{1}{2}r}\\
+	&=\Tr (-1)^{F}p^{\frac{1}{2}(\Delta+2j_{2}-2R-\frac{1}{2}r)}q^{\frac{1}{2}(\Delta-2j_{2}-2R-\frac{1}{2}r)}t^{R+\frac{1}{2}r}
+\end{split}
+\end{equation}
+where in the second line we used $\delta=\Delta-2j_{1}-2R+\frac{1}{2}r=0$. The single letter indices of an half-hypermultiplet and a vector multiplet is
+\begin{equation}
+	i_{\frac{1}{2}H}(p,q,t)=\frac{\sqrt{t}-pq/\sqrt{t}}{(1-p)(1-q)},\qquad i_{V}(p,q,t)=\frac{pq/t-t}{(1-p)(1-q)}+\frac{-p-q+2pq}{(1-p)(1-q)}
+\end{equation}
+The charges here are manifestly non-negative, so we can take various limits to zero
+\begin{itemize}
+	\item \textbf{Macdonald limit}: $p\rightarrow 0$. This limit only counts states which are annihilated by $\tilde Q_{1,\dot{+}}$ and by. $Q_{1,-}$. The single letter indices are
+	\begin{equation}
+		i_{\frac{1}{2}H}(q,t)=\frac{\sqrt{t}}{1-q},\qquad i_{V}(q,t)=\frac{-t-q}{1-q}
+	\end{equation}
+	\item \textbf{Hall--Littlewood limit}: $p,q\rightarrow0$. This limit counts only states which are annihilated by $\tilde Q_{1,\dot{+}},\tilde{Q}_{1,\dot{-}}$ and by. $Q_{1,-}$. The single letter indices are
+	\begin{equation}
+		i_{\frac{1}{2}H}(t)=\sqrt{t},\qquad i_{V}(t)=-t
+	\end{equation}
+	\item \textbf{Schur limit}: $q=t$. This limit only counts states for which $\acomm{\tilde{Q}_{1,\dot{+}}}{(\tilde{Q}_{1,\dot{+}})^{\dagger}}=0$. The single letter indices are
+	\begin{equation}
+		i_{\frac{1}{2}H}(q)=\frac{\sqrt{q}}{1-q},\qquad i_{V}(q)=\frac{-2q}{1-q}
+	\end{equation}
+\end{itemize}
+\subsection{Rank $1$ Gaiotto theories}
+The simplest Gaiotto duality, is the one associated to he Seiberg-Witten $\SU(2)$ theory with eight half-hypers which enjoys triality. Notice that the three half-hypers transform in the vector rep of $\SO(8)$ flavour symmetry. This group can be broken down into it's $\SU(2)^{4}$, where the vector rep breaks us $\mathbf{8}_{v}=(\mathbf{2}_{a}\otimes\mathbf{2}_{b})\oplus(\mathbf{2}_{c}\otimes\mathbf{2}_{d})$.The character of this rep is just
+\begin{equation}
+	\qty(a+\frac{1}{a})\qty(b+\frac{1}{b})+\qty(c+\frac{1}{c})\qty(d+\frac{1}{d})
+\end{equation}
+and the index is just
+\begin{equation}
+	I=(p;p)_{\infty}(q;q)_{\infty}\Gamma\qty(\frac{pq}{t})\oint\frac{\dd{z}}{2\pi i z}\frac{\Gamma\qty(\frac{pq}{t}z^{\pm2})}{\Gamma\qty(z^{\pm2})}\Gamma\qty(\sqrt{t}z^{\pm 1}a^{\pm 1}b^{\pm 1})\Gamma\qty(\sqrt{t}z^{\pm 1}c^{\pm 1}d^{\pm 1})
+\end{equation}
+This theory enjoys triality: if we change the vector rep with the spinor or the conjugate spinor, then the theory is the same but at different coupling. Since the index is insensitive to the coupling, the three indices should be the same. Change the reps amounts to a swapping the indices $a,b,c,d$ of the punctures, in particular $b\leftrightarrow c$ and $a\leftrightarrow d$ or $a\leftrightarrow b$ and $c\leftrightarrow d$ since
+\begin{equation}
+	\mathbf{8}_{s}=(\mathbf{2}_{a}\otimes\mathbf{2}_{c})\oplus(\mathbf{2}_{b}\otimes\mathbf{2}_{d}),\qquad \mathbf{8}_{c}=(\mathbf{2}_{a}\otimes\mathbf{2}_{d})\oplus(\mathbf{2}_{b}\otimes\mathbf{2}_{c})
+\end{equation} 
+Mathematicians proved the invariance of the index under this swaps.
+
+We know that Gaiotto theories can be constructed from M-theory by compactifying rank $1$ $\cN=(2,0)$, the worldvolume theory of the M5-brane, on the sphere with $4$ punctures. The complex structure of the Riemann surface maps to the complexified gauge couplings. Each of the $\SU(2)$ factors in the flavours $\SU(2)^{4}$ corresponds to a puncture.\\
+
+In the degeneration limit, the four-punctured sphere splits up into two three punctured spheres. A thee-punctured sphere has no complex structure and therefore no gauge coupling and we can relate it to the theory of a free half-hyper in the tri-fundamental of $\SU(2)^{3}$ which, indeed, has no coupling. There are three possible degeneration limits: closing $a,b$ or $a,c$ of $a,d$. In each degeneration limit, we get a weakly coupled theory where the half-hypers are in the three different fundamental reps of $\SO(8)$.\\
+The index, being independent of the gauge coupling, it must be computed by a TQFT. Abstractly, this can be specified by a three-point function and a propagator. Let us call the index of the three-punctured sphere $I(a,b,c)$ where $a,b,c$ parametrise the punctures and are given by the fugacities of the three $\SU(2)$ at the puncture. The propagator associated to the cylinder, which enables the gluing of the punctures (which essentially is related to gauging one of the four $\SU(2)$ on the puncture), is given by
+\begin{equation}
+	\eta(a,b)=\Delta(a)I_{V}(a)\delta(a,b^{-1})
+\end{equation}
+This essentially inserts a gauging of the diagonal $\SU(2)$ of the $\SU(2)^{2}$ coming from gluing two punctures, by inserting a vector multiplet associated to that puncture. So a generic theory of class S can be written in terms of this propagator and the three-point function which is just the half-hyper. Take the theory of a four-punctured sphere by gluing two three-punctured spheres along one puncture
+\begin{equation}
+	I(a,b,c,d)=\oint\frac{\dd{z}}{2\pi i}\oint\frac{\dd{x}}{2\pi i}I_{H}(a,b,z)\eta(z,x)I_{H}(z,c,d)=\oint\dd{z}\Delta (z)I_{H}(a,b,z)I_{V}(z)I_{H}(z,c,d)
+\end{equation}
+By expanding the index on a convenient basis of functions $f^{\alpha}(a)$ labelled by the fugacity of $\SU(2)$ representations $\alpha$, we can associate to a three-punctured sphere some structure constants $C_{\alpha\beta\gamma}$ and to each propagator a metric $\eta^{\alpha\beta}$
+\begin{equation}
+\begin{split}
+	I(a,b,c)&=\sum_{\alpha,\beta,\gamma}C_{\alpha\beta\gamma}f^{\alpha}(a)f^{\beta}(b)f^{\gamma}(c)\\
+	\eta^{\alpha\beta}&=\oint\frac{\dd{a}}{2\pi i}\oint\frac{\dd{b}}{2\pi i}\eta(a,b)f^{\alpha}(a)f^{\beta}(b)
+\end{split}
+\end{equation}
+and we can rephrase the invariance of the index under the different ways to decompose the surface as sayng that $C_{\alpha\beta\gamma}$ and $\eta^{\alpha\beta}$ define a two-dimensional TQFT (which in this case has an infinite-dimensional Hilbert space, contrary to Athya's definition, but is closely related to a known TQFT which is $2d$ YM). A crucial property is associativity
+\begin{equation}
+	C_{\alpha\beta\sigma}C^{\sigma}_{\gamma\rho}=C_{\alpha\gamma\sigma}C^{\sigma}_{\beta\rho}
+\end{equation}
+where the indices are raised using the metric $\eta^{\alpha\beta}$ and lowered with its inverse. By orthonormalizing the functions $f^{\alpha}(a)$ under the Haar-measure and finding an explicit basis where the structure constants are diagonal, one can build the index of the SCFT associated to a genus $g$ Riemann surface with $s$ punctures. Such surface is built by gluing $2g-2+s$ three-punctured spheres so that
+\begin{equation}
+	I_{g,s}(a_{1},a_{2},\ldots,a_{s})=\sum_{\alpha}C_{\alpha\alpha\alpha}^{2g-2+s}\prod_{I=1}^{s}f^{\alpha}(a_{I})
+\end{equation}
+\subsection{Generalization to higher rank}
+The higher rank theory is constructed by taking more M5-branes. The fundamental blocks are called $T_{N}$ for a rank $N$ theory. The $T_{2}$ block is simple in the sense that is just the theory of free hypers and has a lagrangian description. The higher rank case, in general, the $T_{N}$ block is some non-trivial strongly coupled SCFT for which no lagrangian description is known.
+
+Guided by the AGT correspondence, where normalizable Liouville vertex operators are associated with flavour symmetry of the $4d$ gauge theory and degenerate vertex operators correspond to surface defects, one can consider adding surface defects to the index which should correspond to adding special degenerate punctures in the $2d$ TQFT correlator and that their fusion with the ordinary flavour punctures will lead to topological bootstrap equations. Another useful heuristic principle is that since divergences in a partition function must be related to flat bosonic directions, it should be possible to interpret the residue of the index at any of its poles in terms of the behavior of the $4d$ field theory far away in moduli space.\\
+So we evaluate the superconformal index for theories of class S with the insertion of BPS surface defects. This defect is going to be built as the IR end point of a BPS vortex solution. So we embed a given IR SCFT in a larger theory in the UV such that turning on a spatially constant Higgs branch vacuum expectation value one flows back to the original IR theory. If the vev is then position dependent, the IR theory is endowed with an additional BPS surface defect. Moreover, the UV theory has an additional $\U(1)_{f}$ flavour symmetry with respect to the IR theory. Then the residue of the UV index at some special poles in the $\U(1)_{f}$ fugacity capture the index of the IR theory in presence of the surface defect.
+
+Adding a surface defect to the IR theory amounts to acting on its index with a certain difference operator $\FrS_{(r,s)}$ closely related to the Hamiltonian of the Ruijsenaars-Schneider model. This difference operator acts as a shift on one of the $\SU(N)$ flavour fugacities. Generalized S-duality predicts that one should get similar results regardless of which flavour puncture the diffference operator is acting on. This leads to the conclusion that the functions which diagonalizes the structure constants $C_{\alpha\beta\gamma}$ must be eigenfunctions of the difference operators.
+
+The UV theory is constructed starting from the IR theory and adding an hypermultiplet either on an $\SU(N)$ gauge node or to en external leg. This construction adds an $\SU(N)\times\SU(N)$ gauge where the hyper transforms in the bifundamental. This hyper carries also a $\U(1)_{f}$ charge which can be gauged in the presence of an FI-parameter. This triggers a vev for the hyper breaking, by a suitable choice of the vev, the $\SU(N)^{2}$ to the diagonal $\SU(N)$. At the level of the index, one searches for possible residues in the $\U(1)_{f}$ flavour symmetry thereby higgsing the theory. The end result is the IR index times the surfece defect operator $\FrS(r,s)$ which is given by the index of a certain $2d$ theory of free hypers
+
+\begin{equation}
+	I[T_{IR},\bar{\FrS}(r,s)]=N I_{V} R^{-1}_{r,s} \Res_{a=t^{1/2}p^{r/N}q^{s/N}}\frac{1}{a}I[T_{UV}]
+\end{equation}
+
+For the rank 1 case, the basic result is
+\begin{equation}
+\begin{split}
+	I[T_{IR},\FrS(r,s)]&=2 I_{V}\Res_{a=t^{1/2}p^{r/2}q^{s/2}}\frac{1}{a}I[T_{UV}]=\FrS(r,s)I[T_{IR}]\\
+	&=\sum_{\sum_{i=1}^{2}n_{i}=r}\sum_{\sum_{i=1}^{2}m_{i}=s}I_{C}(p^{\frac{r}{2}-n_{i}},q^{\frac{s}{2}-m_{i}})\times\\
+	&\prod_{i,j=1}^{2}\qty[{\prod_{m=0}^{m_{i}-1}}^{\prime}\frac{\theta\qty(p^{n_{j}}q^{m+m_{j}}tb_{i}/b_{j};p)}{\theta\qty(p^{-n_{j}}q^{m-m_{j}}b_{j}/b_{i};p)}]\qty[{\prod_{n=0}^{n_{i}-1}}^{\prime}\frac{\theta\qty(q^{m_{j}-m_{i}}p^{n+n_{j}-n_{i}}tb_{i}/b_{j};q)}{\theta\qty(q^{m_{i}-m_{j}}p^{n-n_{j}}b_{j}/b_{i};q)}]
+\end{split}
+\end{equation}
+where the prime on the product means just omitting divergent terms. With this form, one can diagonalize the index using the spectrum of the difference operator.
+
+\section{Chiaral symmetry breaking}
+Consider $4d$ $\cN=1$ $\SU(2)$ SQCD with $2$ flavours. This theory S-confines to a theory of free mesons and baryons. As we'll see the SCI of this theory vanished for generic values of the fugacities and in some special cases it has delta function type singularities.
+
+The electric theory SCI is given by
+\begin{equation}
+	I_{E}=\frac{(p;p)_{\infty}(q;q)_{\infty}}{2}\int_{T_{d}}\frac{\dd{z}}{2\pi i z}\frac{1}{\Gamma(z^{\pm2};p,q)}\prod_{i=1}^{4}\Gamma( s_{i}z^{\pm 1};p,q)
+\end{equation}
+where $T_{d}$ is a deformed $S^{1}$ contour such that, 

@@ -1,0 +1,14 @@
+\chapter{Geometry of gauge theories}
+In this chapter we summarise the relevant mathematical basics for the gometrization of gauge theories. 
+\section{Differential geometry basics}
+To define gauge fields geometrically, we need the notion of forms. Here we give a very basic defintion of them and the usual operations they carry. 
+
+\begin{defn}{Differential Form}{}
+    Given a differentiable $d$-manifold $X$, a \textit{differential form} on $X$ is a section\footnote{Fancy for function} of the exterior algebra of the cotangent bundle over $X$. A differential $p$-form, with $p<d$, on $X$ is a section of the $p$th exterior power of the cotungent bundle. The integer $p\in\bbZ_{>}$ is called \textit{rank} of the form.
+\end{defn}
+
+The set of differential $p$-forms is denoted by $\Omega^p(X)$. The basic differential forms are the line element forms $\dd{x}$ for some set of coordinates $\{x\}$. On this basis, any form can be decomposed 
+\begin{equation}
+    \omega_p=\sum_if_{i_1,\ldots,i_p}(x)\dd{x_{i_1}}\wedge\dd{x_{i_p}}
+\end{equation}
+Forms are the "dual" of vector fields.

@@ -1,0 +1,98 @@
+\chapter{Spindles in AdS}
+Here we collect some known and new results for spindles in AdS.
+\section{\texorpdfstring{Spindles in AdS$_3$}{Spindles}}
+\subsection{\texorpdfstring{Finite $N$ corrections}{Finite N}}
+This discussion should hold for general manifolds, but I'm not sure it should also hold for orbifolds such as the spindle. In general, for some values of the deficit angles, the spindle is a bad orbifold as per definition in the mathematical literature.
+
+Let us consider the finite $N$ contributions to the anomaly polynomial for out theories of interest. The contributions are given by the linear anomalies for the two $\U(1)$ symmetries $R$ and $F$. In particular these are going to be given by
+\begin{equation}
+	\mathcal{A}_{4d}\supseteq -\frac{1}{24}c_{1}(R)p_{1}(T_{4})-\frac{1}{24}c_{1}(F)p_{1}(T_{4}) 
+	\label{eqfiniteN}
+\end{equation}
+where $p_{1}(T_{4})$ is the first Pontryagin class of the tangent bundle to the $X_{4}$ space-time manifold of the theory.\\
+Let us consider the contribution from the $\U(1)_{R}$ and explicitly evaluate the integral of this term on the spindle $\Spindle$, the contribution from the $\U(1)_{F}$ can be found similarly. To integrate (\ref{eqfiniteN}) on $\Spindle$ we consider the following non-trivial fibration over $X_{4}$ 
+\begin{equation}
+	\Spindle\equiv\mathbb{WPC}^{1}_{[n_{1},n_{2}]}\hookrightarrow X_{4}\xrightarrow{\pi} X_{2}
+\end{equation}
+this induces a splitting of the tangent bundles of the total space 
+\begin{equation}
+	TX_{4}\equiv T_{4}\cong \pi^{*}(TX_{2})\oplus T\Spindle
+\end{equation}
+which at the level of the Pontryagin class amounts to
+\begin{equation}
+	p_{1}(T_{4})=p_{1}(T_{2})+e(T\Spindle)^{2}
+	\label{eqpontry}
+\end{equation}
+where $e(T\Spindle)$ is the Euler class of the spindle.
+
+With the aid of equivariant cohomology, we can easily integrate any form on the spindle given that the north and south poles are isolated points of the $\U(1)_{J}$ isometry. For this manifolds we have that the $\U(1)$-equivariant cohomology group splits in the following way
+\begin{equation}
+	H^{\bullet}_{\U(1)}(\Spindle)=H^{\bullet}(\Spindle)\otimes \mathbb{R}[c_{1}(\mathcal{J})]
+\end{equation}
+where $c_{1}(\mathcal{J})$ is the first Chern class along $X_{2}$ of the background gauge field of the $\U(1)$ isometry and $\mathbb{R}[c_{1}(\mathcal{J})]$ is the polynomial ring in $c_{1}(\mathcal{J})$ with real coefficients. With this, the integral of equivariant cohomology classes over $\Spindle$ can be conveniently evaluated using localization
+\begin{equation}
+	\int_{\Spindle}\omega=\sum_{\text{fixed points}}\frac{\omega_{P}}{e(\left.T\Spindle\right|_{P})}.
+\end{equation}
+This means that
+\begin{equation}
+	\int_{\Spindle}c_{1}(R)p_{1}(T_{4})=c_{1}(R)\int_{\Spindle}e(T\Spindle)^{2}+\frac{1}{2}p_{1}(T_{2})\int_{\Spindle}c_{1}(\mathcal{L}_{R})+\frac{1}{2}\int_{\Spindle}c_{1}(\mathcal{L}_{R})e(T\Spindle)^{2}
+	\label{eqRFiniteN}
+\end{equation}
+following the prescriptions
+\begin{equation}
+	c_{1}(R)\rightarrow c_{1}(R)+\frac{1}{2}c_{1}(\mathcal{L}_{R}),\qquad c_{1}(F)\rightarrow c_{1}(F)+c_{1}(\mathcal{L}_{F})
+\end{equation}
+and (\ref{eqpontry}). The first integral, using localization, can be evaluated by considering that the restriction of the Euler class on the poles amounts to $\pm c_{1}(\mathcal{J})$ factors in the numerator, so that
+\begin{equation}
+	\int_{\Spindle}e(T\Spindle)^{2}=\frac{c_{1}(\mathcal{J})^{2}}{c_{1}(\mathcal{J})}+\frac{c_{1}(\mathcal{J})^{2}}{-c_{1}(\mathcal{J})}=0.
+\end{equation}
+The second factor in (\ref{eqRFiniteN}) is just the $R$-symmetry flux through the spindle, while the last term evaluates to
+\begin{equation}
+\begin{split}
+	\int_{\Spindle}c_{1}(\mathcal{L}_{R})e(T\Spindle)^{2}&=\rho_{R}^{N}c_{1}(\mathcal{J})\frac{c_{1}(\mathcal{J})^{2}}{c_{1}(\mathcal{J})}-\rho_{R}^{S}c_{1}(\mathcal{J})\frac{c_{1}(\mathcal{J})^{2}}{c_{1}(\mathcal{J})}\\
+	&=\flux{R}c_{1}(\mathcal{J})^{2}
+\end{split}
+\end{equation}
+where the $\rho^{\prime}_{R}(y)\dd{y}\wedge(\dd{z}+A_{J})$ in $c_{1}(\mathcal{L}_{R})$ does not give contribution on the poles.
+
+Therefore, the $\Tr R$ contribution to the anomaly polynomial of the $2d$ theory is given by
+\begin{equation}
+	-\frac{\flux{R}}{48}\Tr R\left(p_{1}(T_{2})+c_{1}(\mathcal{J})^{2}\right).
+\end{equation}
+The calculation of the $\Tr F$ contribution can be carried out similarly and amounts to the following 
+\begin{equation}
+	-\frac{\flux{F}}{24}\Tr F\left(p_{1}(T_{2})+c_{1}(\mathcal{J})^{2}\right).
+\end{equation}
+
+
+\section{\texorpdfstring{Spindles in AdS$_4$}{Spindles4}}
+What we know take a stack of M2 branes in $D=11$ supergravity at a the tip of a Calabi-Yau cone $Y_{9}=C(X_{7})$. The worldvolume theory is a $d=3$ $\cN=(0,2)$ SCFT which is dual to AdS$_{4}\times X_{7}$. On the other hand, twisted compactification of M2 brane theories are dual to AdS$_{2}\times X_{9}$ where where $X_{9}$ is a fibration over $X_{7}$ of a $2$-dimensional Riemann surface $\Sigma_{g}$
+\begin{equation}
+	X_{7}\hookrightarrow X_{9}\rightarrow \Sigma_{g}
+\end{equation}
+The twisting depends on the choice of flux $\Frn_{a}$.\\
+In the $d=3$ $\cN=2$ SCFTs, the exact R-symmetry can be computed by the extremisation procedure of the $S^{3}$ partition function $F_{S^{3}}(\Delta)$ as a function of the R-charges and possible monopole charges. This procedure is dual, on the gravity side, to volume minimization.\\
+On the other side, the background AdS$_{4}\times X_{7}$ can be seen as the near-horizon limit of some magnetically charged BPS black hole. On this side, a extrimisation principle for finding the black hole entropy has been developed and it corresponds to extramising the topologically twisted index $\cI=\log Z_{\Sigma_{g}\times S^{1}}$, i.e. the partition function of a three-dimensional SCFT on $\Sigma_{g}\times S^{1}$ with an A-twist along $\Sigma_{g}$.\\
+It turns out that the two extremisation procedures are actually closely related [1904.04269v2]. Specifically, the following equality holds (usually, look at the paper for details) whenever the partition function can be casted as an homogeneous function of degree two of the R-charges
+\begin{equation}
+	\mathcal{I}(\Delta_{I},\Frn_{I})=-\frac{1}{2}\sum_{I}\Frn_{I}\frac{\partial F_{S^{3}}(\Delta)}{\partial\Delta_{I}}
+\end{equation}
+
+What we want to do now, is a similar procedure where the Riemann surface is substituted by the spindle $\bbW\bbC\bbP^{1}_{(m_{+},m_{-})}\equiv\Spindle$ and after that check the result with the expected structure which comes from the spindle.\\
+On the spindle, the gravitational block formula, tells us that the off-shell entropy is given by
+\begin{equation}
+	\cI=\frac{8\pi^{3} N^{3/2}}{3b_{0}\sqrt{6b_{1}}}\left[\frac{1}{\sqrt{\left.\text{Vol}_{S}(X_{7})\right|_{b_{i}^{(+)}}}}-\frac{\sigma}{\sqrt{\left.\text{Vol}_{S}(X_{7})\right|_{b_{i}^{(-)}}}}\right]
+\end{equation}
+where $\sigma$ parametrizes the (anti)-twist, moreover
+\begin{equation}
+	b_{i}^{(+)}=b_{i}-\frac{b_{0}}{m_{+}}v_{+i},\qquad b_{i}^{(-)}=b_{i}+\frac{b_{0}}{m_{-}}v_{-i}
+\end{equation}
+are opportunely shifted elements of the reeb vector (the vectors $v_{\pm i}$ are the toric data). On the gravity side, we should set $b_{1}=1$ to carry out the extremisation.
+
+Observe that this result is a generalization of Zaffaroni's one, since by taking the opportune limit (4.23) Gauntlett, one recovers the $S^{3}$ partition function.
+
+\subsection{\texorpdfstring{Cone over $Q^{(1,1,1)}$}{Q111}}
+Consider the following fibration
+\begin{equation}
+	Q^{1,1,1}\hookrightarrow X_{9}\longrightarrow\Spindle
+\end{equation}
