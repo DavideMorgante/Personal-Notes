@@ -1,47 +1,57 @@
 \contentsline {chapter}{\numberline {1}Geometry of gauge theories}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Differential geometry basics}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Spindles in AdS}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Spindles in AdS$_3$}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Finite $N$ corrections}{3}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Spindles in AdS$_4$}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Cone over $Q^{(1,1,1)}$}{5}{subsection.2.2.1}%
-\contentsline {chapter}{\numberline {3}Generalized and Non-invertible symmetries}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}New way of looking at symmetries}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Projective Representations in Quantum Mechanics}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Projective Representations and Cohomology Theory}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Interplay between Projective Representations and Anomalies}{13}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Example 2 Particle in a Ring}{13}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Example 3 Maxwell Theory}{17}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Arising of Discrete Symmetries and their Gauging}{20}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Homology, cohomology and gauge fields}{24}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Sequences}{24}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Simplicial Homology}{25}{subsection.3.8.2}%
-\contentsline {subsection}{\numberline {3.8.3}Cohomology}{28}{subsection.3.8.3}%
-\contentsline {subsection}{\numberline {3.8.4}Poincarè duality}{30}{subsection.3.8.4}%
-\contentsline {chapter}{\numberline {4}Chern-Simons theory}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}$U(1)$-Chern Simons Theory}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Quantization}{33}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Quantization Procedures}{33}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Mathematical Aside: Moment Map and Symplectic reduction}{33}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}$\mathbb {Z}_n$-Chern Simons theory}{35}{section.4.3}%
-\contentsline {chapter}{\numberline {5}The power of symmetry}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Higher symmetries}{41}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Rep theory of categorical symmetries}{43}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Recap of $2d$}{43}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Seiberg--Witten theory}{45}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Susy algebra}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Most basic $\mathcal {N}=2$ renormalizable gauge theory}{46}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Dynamics}{48}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Spectrum}{49}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}The other way of constructing $\mathcal {N}=2$ theory}{50}{section.7.3}%
-\contentsline {section}{\numberline {7.4}The third construction}{55}{section.7.4}%
-\contentsline {section}{\numberline {7.5}The Seiberg--Witten construction}{56}{section.7.5}%
-\contentsline {chapter}{\numberline {8}$\mathcal {N}=2$ Dualities}{61}{chapter.8}%
-\contentsline {section}{\numberline {8.1}S-dualities}{65}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Do the graph theory have S-dualities}{66}{subsection.8.1.1}%
-\contentsline {chapter}{\numberline {9}$2d/4d$ correspondance}{71}{chapter.9}%
-\contentsline {section}{\numberline {9.1}$2d$ Yang-Mills}{72}{section.9.1}%
-\contentsline {section}{\numberline {9.2}$q$-deformed YM}{74}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Relation between Gaiotto theories and $q$-deformed YM}{75}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Connection to $6d$}{76}{section.9.4}%
-\contentsline {chapter}{References}{77}{section*.7}%
+\contentsline {section}{\numberline {1.2}Gauge theories}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Characteristic classes}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Twisted bundles and Center symmetry}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Line bundles}{4}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Spindles in AdS}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Spindles in AdS$_3$}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Finite $N$ corrections}{9}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Spindles in AdS$_4$}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Cone over $Q^{(1,1,1)}$}{11}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {3}Generalized and Non-invertible symmetries}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}New way of looking at symmetries}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Projective Representations in Quantum Mechanics}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Projective Representations and Cohomology Theory}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Interplay between Projective Representations and Anomalies}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Example 2 Particle in a Ring}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Example 3 Maxwell Theory}{23}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Arising of Discrete Symmetries and their Gauging}{26}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Homology, cohomology and gauge fields}{30}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Sequences}{30}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Simplicial Homology}{31}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}Cohomology}{34}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Poincarè duality}{36}{subsection.3.8.4}%
+\contentsline {chapter}{\numberline {4}Chern-Simons theory}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}$U(1)$-Chern Simons Theory}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Quantization}{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Quantization Procedures}{39}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Mathematical Aside: Moment Map and Symplectic reduction}{39}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}$\mathbb {Z}_n$-Chern Simons theory}{41}{section.4.3}%
+\contentsline {chapter}{\numberline {5}The power of symmetry}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Higher symmetries}{47}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Rep theory of categorical symmetries}{49}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Recap of $2d$}{49}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Seiberg--Witten theory}{51}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Susy algebra}{51}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Most basic $\mathcal {N}=2$ renormalizable gauge theory}{52}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Dynamics}{54}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Spectrum}{55}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}The other way of constructing $\mathcal {N}=2$ theory}{56}{section.7.3}%
+\contentsline {section}{\numberline {7.4}The third construction}{61}{section.7.4}%
+\contentsline {section}{\numberline {7.5}The Seiberg--Witten construction}{62}{section.7.5}%
+\contentsline {chapter}{\numberline {8}$\mathcal {N}=2$ Dualities}{67}{chapter.8}%
+\contentsline {section}{\numberline {8.1}S-dualities}{71}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Do the graph theory have S-dualities}{72}{subsection.8.1.1}%
+\contentsline {chapter}{\numberline {9}$2d/4d$ correspondance}{77}{chapter.9}%
+\contentsline {section}{\numberline {9.1}$2d$ Yang-Mills}{78}{section.9.1}%
+\contentsline {section}{\numberline {9.2}$q$-deformed YM}{80}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Relation between Gaiotto theories and $q$-deformed YM}{81}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Connection to $6d$}{82}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Kaluza-Klein reduction}{83}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Back to $6d$}{84}{subsection.9.4.2}%
+\contentsline {section}{\numberline {9.5}Generalizing to $\mathrm {SU}(N)$}{85}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Partial closure of punctures}{85}{subsection.9.5.1}%
+\contentsline {chapter}{\numberline {10}Various concepts}{87}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Topological twist}{87}{section.10.1}%
+\contentsline {chapter}{References}{89}{section*.7}%

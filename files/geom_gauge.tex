@@ -11,4 +11,244 @@ The set of differential $p$-forms is denoted by $\Omega^p(X)$. The basic differe
 \begin{equation}
     \omega_p=\sum_if_{i_1,\ldots,i_p}(x)\dd{x_{i_1}}\wedge\dd{x_{i_p}}
 \end{equation}
-Forms are the "dual" of vector fields.
+Forms are the "dual" of vector fields, meaning that there is a natural inner product such that 
+\begin{equation}
+    \langle \vec{v},\omega\rangle=\sum_i v^i(x)f_i(x),\qquad \vec{v}=\sum_i v^i \pdv{}{x^i}
+\end{equation}
+The wedge product of two forms with degrees $p,q$ such that $p+q\le d$ is graded commutative, meaning 
+\begin{equation}
+    \alpha_p\wedge \beta_q=(-1)^{pq}\beta_q \wedge \alpha_p
+\end{equation}
+By construction, differential forms are integrable 
+\begin{equation}
+    \oint_{\Sigma_n}\omega_n=\sum_{i_1,\ldots,i_n}\oint_{\Sigma_n}f_{i_1,\ldots,i_n}\dd{x}_1\ldots\dd{x}_n
+\end{equation}
+where the pullback of the volume form to $\Sigma_n$ vanishes except when it is proportional to the volume element on $\Sigma_n$.
+
+On forms we have exterior derivative which increases the degree of the form and squares to zero. Exterior derivatives obey the product rule 
+\begin{equation}
+    \dd{(\alpha_p\wedge \beta_q)}=\dd{\alpha}_p\wedge \beta_q+(-1)^p\alpha_p\wedge \dd{\beta}_q
+\end{equation}
+\begin{thm}{Generalized Stokes' theorem}{}
+    Let $\Sigma$ be an oriented $(n+1)$-manifold with boundary $\partial \Sigma$ and let $\omega_n$ being a differential $n$ form. Then the integral of $\dd{\omega}_n$ is given by the integral of $\omega_n$ on $\partial \Sigma$ 
+    \begin{equation}
+        \int_\Sigma \dd{\omega}_n=\int_{\partial \Sigma}\omega_n
+    \end{equation}
+\end{thm}
+With the exterior differential we can construct the de Rham cohomology $\HH_\rm{dR}^n(M)=\HH^n(M;\bbR)$. Interesting in itself is the restriction of the cohomology to forms with integral periods $\Omega_\bbZ^n(M)$, i.e. they integrate to an integer on all $n$-dimensional submanifolds of $M$. From this one can construct the integral-valued cohomology classess $\HH^n(M;\bbZ)$ which have a similar definition to the continuous case. 
+
+\section{Gauge theories}
+A gauge theory is the theory of principal $G$ bundles with connection where $G$ is some Lie group. Principal $G$ bundles are fibrations of $G$ over some base manifold 
+\begin{equation}
+\begin{tikzcd}
+    G \arrow{r} & P \arrow{d}{\pi} \\
+    & X 
+\end{tikzcd}
+\end{equation}
+where $\pi$ is the projection onto the base manifold. Let us describe how to construct $G$-bundles with $P$ connection. Let us fix $G$ to be a semi-simple Lie group. A $G$-bundle $P$ over $X$ can be locally trivialized by taking a nice covering of open sets over $X$. Over each $U_\alpha$, the fiber of $P$ looks like $\pi^{-1}(U_\alpha)=P_\alpha\simeq G\times U_\alpha$. The fibers of $P$ are related between patches by transition functions (gauge transformations)
+\begin{equation}
+    g_{\alpha \beta}:U_\alpha\cap U_\beta\rightarrow G,\qquad (x,p_\alpha)=(x,g_{\alpha \beta}(x)p_\beta),\quad x\in U_\alpha\cap U_\beta
+\end{equation}
+All fiber bundles obey the triple intersection condition 
+\begin{equation}
+    g_{\alpha \beta }(x)g_{\beta \gamma }(x)g_{\gamma \sigma}(x)=\delta_{\alpha \sigma}\qquad \forall x\in U_\alpha\cap U_\beta \cap U_\sigma
+\end{equation}
+This condition can be modified for twisted fiber bundles.
+
+A connection on $P$ is a rule for comparing fibers at different points $\pi^{-1}(x),\phi^{-1}(y)$ for $x\neq y$. The point is that parallel transport around the base manifold can be identified with a tangent vector field to $X$ and, for non-trivial $P$, motion along such vector field can induce a transition in the fiber. This translation is itself described by a vector that is tangent to the fiber $G$ that is a function of the tangent vector field $X$. Thus the translation in $G$ is locally described by a $\mathfrak{g}$-valued one-form which is called the connection $A$. The triple intersection condition implies that the restriction of the connection $A$ to an open cover are related by the gauge transformation 
+\begin{equation}
+    A_\beta=g^{-1}_{\alpha \beta} A_\alpha g_{\alpha \beta}+ g_{\alpha \beta}^{-1}\dd{g}_{\alpha \beta}
+\end{equation}
+From this one can construct the covariant derivative 
+\begin{equation}
+    D_A=\delta+A\wedge
+\end{equation}
+This connection can have non-trivial curvature, the field strength, which is given by the commutator of the covariant derivatives 
+\begin{equation}
+    F=\dd{A}+A\wedge A
+\end{equation}
+\section{Characteristic classes}
+\begin{proposition}
+    For a gixed $G$, any principle $G$-bundle over a fixed base manifold $X$ can be constructed by pulling back a $G$ bundle from a universal spaced called the classifying space $BG$. The classifying space can be constructed as follows: pick a contractible space $EG$ with a free $G$-action. $BG$ can then be constructed as a quotient $EG/G$. Now any principal $G$-bundle $P\rightarrow X$ can be constructed by pulling back the bundle $EG\rightarrow BG$ 
+    \begin{equation}
+        \begin{tikzcd}
+            G \arrow{r}{} & P  \arrow[swap]{d}{\pi} &\arrow[swap]{l}{f^*}EG \arrow{d}{\pi} &\arrow{l} G \\
+            &X\arrow{r}{f}&BG & &
+    \end{tikzcd}
+    \end{equation}
+\end{proposition}
+So in particular, the cohomology of $BG$ classifyes the possible topology of principal $G$-bundles.
+
+Characteristic classes classify the possible topological invariants associated with a gauge bundle, and as such must be constructed from gauge invariant differential written in terms of the field strength and the gauge field. When $G$ is a simply connected Lie group, the cohomology classes are given by guage-invariant polynomials in $F$ which are nothing but the Chern characters of $BG$ 
+\begin{equation}
+    \frac{\Tr F\wedge\cdots\wedge F}{n! (2\pi)^n}\in \HH^{2n}(BG;\bbZ)
+\end{equation}
+Chern classes are just reduction of Chern characters by products of lower-dimensional Chern-classes, for example 
+\begin{equation}
+    c_1(F)=\rm{ch}_1(F)=\frac{\Tr F}{2\pi},\qquad c_2(F)=\rm{ch}_2(F)-\frac{1}{2}c_1(F)^2,\qquad\ldots
+\end{equation}
+Some examples of these cohomology groups are the following 
+\begin{equation}
+    \HH^{2n}(B\U(1);\bbZ)=\bbZ\qty[\frac{\Tr F\wedge\cdots\wedge F}{n! (2\pi)^n}],\qquad H^{2n}(B\bbZ_N;\bbZ)=\bbZ_N
+\end{equation}
+For non-simply connected Lie groups like $\SO(N)$ or $\PSU(N)$, we have a relation due to the Universal Coefficient Theorem
+\begin{equation}
+    \HH_1(G;\bbZ)\simeq \HH^2(BG;\bbZ)
+\end{equation}
+This means that a $G$-gauge theory has discrete $2$-form fluxes that correspond to the first homotopy group of $G$ which encodes the $1$-form magnetic flux sectors.
+\section{Twisted bundles and Center symmetry}
+
+
+
+
+\section{Line bundles}
+A section is just a function which takes values on different vector spaces at each point of the target space. This means that in general $\phi:M\rightarrow \bbC^N$ the output of the function might not be the same $\bbC^N$ at each point of $M$. 
+
+The simplest example of line bundle is the trivial line bundle $\bbC\times M$. Here the vector space at each point is just $\{m\}\times\bbC$ where $m$ is the point in $M$.
+
+\begin{defn}{Complex line bundle}{}
+    A complex line bundle over a manifold $M$ is a manifold $L$ and a smooth surjection $\pi:L\rightarrow M$ such that
+    \begin{itemize}
+        \item Each fiber $\pi^{-1}(m)=L_m$ is a complex one-dimensional vector space $L_m\simeq \bbC$
+        \item Every $m\in M$ has an open neighborhood $U\subset M$ for which there is a diffeomorphism 
+        \begin{equation}
+            \phi:\pi^{-1}(U)\rightarrow U\times \bbC\qquad\text{such that }\phi(L_m)\subset\{m\}\times\bbC
+        \end{equation}
+        for every $m$ and that moreover the map 
+        \begin{equation}
+            \phi\big|_{L_m}:L_m\rightarrow \{m\}\times \bbC
+        \end{equation}
+        is a linear isomorphism. The second condition is known as local triviality.
+    \end{itemize}
+\end{defn}
+In quantum mechanics, local triviality means that at least in some local region like the laboratory we can identify the Hermitian vector space where the wave function takes its values in $\bbC$.
+
+A section of a line bundle $L$ is like a vector field. That is, a map $\phi:M\rightarrow L$ such that $\phi(m)\in L_m$ $\forall m$, or more succintly $\pi\circ\phi=\rm{id}_m$. The set of all sections, denoted by $\Gamma(L,M)$, is a vector space under pointwise addition and scalar multiplication. A line bundle is trivial iff it has a nowhere vanishing section.
+
+A locally trivial line bundle can be completely understood from the transition function on the base manifold. However, the transition functions are by no means unique. Even by fixing a covering on $M$ we could replace each coordinate $s_\alpha$ on $U_\alpha$ by $h_\alpha s_\alpha$ for some $h_\alpha:U_\alpha\rightarrow \bbC^\times$. Then $g_{\alpha \beta}$ becomes $h_\alpha g_{\alpha \beta }h_\beta^{-1}$. To understand this ambiguity one needs to look at Čech cohomology since, it can be shown, that isomorphism classes of complex line bundles over $M$ are in bijection with the Čech cohomology group $\check{\HH}^1(M,\bbC^\times)$.
+\begin{defn}{Connection}{}
+    A connection $\nabla$ over a line bundle is a linear map 
+    \begin{equation}
+        \nabla:\Gamma(M,L)\rightarrow \Gamma(M, T^* M\otimes L)
+    \end{equation}
+    such that $\forall s\in \Gamma(M,L)$ and $f\in C^\infty(M,L)$ we have the Liebnitz rule 
+    \begin{equation}
+        \nabla(fs)=\dd{f}\otimes s+f\nabla s
+    \end{equation}
+\end{defn}
+
+Every line bundle has a connection. Moreover, if we have a connection over a line bundle there always exists a unique connection over the restriction on open covers. \\
+Let $L\rightarrow M$ be a line bundle ans $s_\alpha:U_\alpha\rightarrow L$ being a local nowhere vanishing section. Define a one-form $A_\alpha$ on $U_\alpha$ by 
+\begin{equation}
+    \nabla s_\alpha=A_\alpha\otimes s_\alpha
+\end{equation}
+If $\xi\in \Gamma(M,L)$ then $\xi|_{U_\alpha}=\xi_\alpha s_\alpha$ where $\xi_\alpha:U_\alpha\rightarrow \bbC$ and 
+\begin{equation}
+    \nabla \xi\big|_{U_\alpha}=\dd{\xi_\alpha}s_\alpha+\xi_\alpha \nabla s_\alpha=(\dd{\xi_\alpha}+A_\alpha \xi_\alpha)s_\alpha
+\end{equation}
+Recall that the transition functions on the base manifold lift to the ones of the line bundle and $s_\beta=g_{\alpha \beta}s_\alpha$, so $\nabla s_\alpha=\dd{g}_{\alpha \beta}s_\beta+g_{\alpha \beta}\nabla s_\beta$ and hence $A_\alpha s_\alpha=g^{-1}_{\alpha \beta} \dd{g}_{\alpha \beta}g_{\alpha \beta}s_\alpha+s_\alpha A_\beta$. Therefore 
+\begin{equation}
+    A_\alpha=A_\beta+g^{-1}_{\alpha \beta}\dd{g}_{\alpha \beta}
+\end{equation}
+The converse is also true. If $\{A_\alpha\}$ is a collection of one-forms satisfying the last equation on $U_\alpha\cap U_\beta$ then there is a connection $\nabla$ such that $\nabla s_\alpha=A_\alpha s_\alpha$.
+
+At this point, if we have a curve $\gamma:\comm{0}{1}\rightarrow M$ and a connection $\nabla$, to parallel transport a section $\xi(t)\in L_{\gamma(t)}$ we require that 
+\begin{equation}
+    \nabla_{\dot{\gamma}}\xi=0
+\end{equation}
+or, equivalently taking $\xi(t)=\xi_\alpha(t)s_\alpha(\gamma(t))$ we have 
+\begin{equation}
+    \frac{\dd{\xi_\alpha}}{\dd{t}}=-A_\alpha(\gamma)\xi_\alpha\leftrightarrow \xi_\alpha(t)=\exp\qty(-\int_0^t A_\alpha(\gamma(t)))\xi_\alpha(0)
+\end{equation}
+Parallel transport is an isomorphism 
+\begin{equation}
+    P_\gamma:L_{\gamma(0)}\rightarrow L_{\gamma(1)}
+\end{equation}
+When the curve is a loop $P$ is the holonomy of the connection over $\gamma$ 
+\begin{equation}
+    P_\gamma(s)=\rm{hol}(\gamma,\nabla)s
+\end{equation}
+If we gave a loop $\gamma:\comm{0}{1}\rightarrow U_\alpha$ then
+\begin{equation}
+    \rm{hol}(\gamma, \nabla)=\exp\qty(-\oint_\gamma A_\alpha)
+\end{equation}
+If $\gamma$ is the boundary of a disk $D$ then 
+\begin{equation}
+    \rm{hol}(\gamma,\nabla)=\exp\qty(-\int_D \dd{A}_\alpha)
+\end{equation}
+Consider the transformation of the one-form. This two form $\dd{A}_\alpha$ is therefore 
+\begin{equation}
+    \dd{A}_\alpha=\dd{A}_\beta+\dd{} \qty(g_{\alpha \beta}^{-1}\dd{g}_{\alpha \beta})=\dd{A}_\beta-g_{\alpha \beta}^{-1}\dd{g}_{\alpha \beta}g_{\alpha \beta}^{-1}\wedge \dd{g}_{\alpha \beta}+g_{\alpha \beta }\dd{\dd{g}}_{\alpha\beta}=\dd{A}_\beta
+\end{equation}
+so the two connections agree on the intersection and hence define a global two form we denote $F$ and call the curvature of $\nabla$. Then 
+\begin{proposition}
+    If $L\rightarrow M$ is a line bundle with connection $\nabla$ and $\Sigma$ is a compact submanifold of $M$ with boundary a loop $\gamma$ then 
+    \begin{equation}
+        \rm{hol}(\gamma, \nabla)=\exp\qty(-\int_\Sigma F)
+    \end{equation}
+\end{proposition}
+
+Now we can define Chern classes which are topological invariant of a line bundle. 
+\begin{proposition}
+    The curvature $F$ of a connection $\nabla$ satisfies the following conditions 
+    \begin{itemize}
+        \item $\dd{F}=0$
+        \item If $\nabla,\nabla^\prime$ are two connections, then $\nabla=\nabla^\prime +\eta$ for $\eta$ a one-form and $F_\nabla = F_{\nabla^\prime}+\dd{\eta}$
+        \item If $\Sigma$ is a closed surface then 
+        \begin{equation}
+            \frac{1}{2\pi i} \int_\Sigma F_\nabla\in \bbZ
+        \end{equation}
+        independent of $\nabla$.
+    \end{itemize}
+\end{proposition}
+\begin{defn}{Chern class}{}
+    The Chern class $c(L)$ of a line bundle $L\rightarrow \Sigma$, where $\Sigma$ is a surface, is defined to be the integer 
+    \begin{equation}
+        \frac{1}{2\pi i}\int_\Sigma F_\nabla,\qquad \forall \nabla
+    \end{equation}
+\end{defn}
+
+\begin{example}
+    Consider the tangent bundle to $S^2$ $TS^2$. The curvature form on this line bundle is just $F=-i\rm{vol}_{S^2}$. It is easy to see than that 
+    \begin{equation}
+        c(TS^2)=\frac{-i}{2\pi i }\int_{S^2}\rm{vol}_{S^2}=\frac{-i}{2\pi i}4\pi=-2
+    \end{equation}
+    Some further insights on $S^2$ can be seen as follows. Consider a covering of $S^2$ by two open subsets $U_0,U_1$, the usual coverings by half spheres. Let $L\rightarrow S^2$ be given by the transition function on the annulus $g_{01}:U_0\cap U_1\rightarrow \bbC^\times$. Then a connection is a pair of two one-forms $A_0,A_1$ on $U_0,U_1$ respectively such that 
+    \begin{equation}
+        A_1=A_0+\dd{g}_{10}g_{10}^{-1}\qquad\text{on }U_0\cap U_1
+    \end{equation}
+    Take $A_0=0$ and $A_1$ any extension of $\dd{g}_{10}g_{10}^{-1}$. Then 
+    \begin{equation}
+        F=\begin{cases}
+            \dd{A}_0=0&\text{on }U_0\\
+            \dd{A}_1&\text{on }U_1
+        \end{cases}
+    \end{equation}
+    To find $c(L)$ we use Stokes theorem 
+    \begin{equation}
+        \int_{S^2}F=\int_{U_1}F=\int_{\partial U_1}\dd{A}_1=\int_{\partial U_1}\dd{g}_{10}g_{10}^{-1}
+    \end{equation}
+    But the last part is just the winding number of $g_{10}$ which is $2\pi i$. This is because when we try to glue vector fields on the annulus of the sphere, going around the annulus both rotare by $\pi$ and so $g_{01}$ rotates by $2\pi$.\\
+    Hence the Chern class of $L$ is just the winding number of $g_{01}$. Isomorphism classes of line bundles on $S^2$ are in one to one correspondence with the integers via the Chern class.
+\end{example}
+\begin{thm}{Gauss-Bonnet}{}
+    For a general Riemann surface with genus $g$ $\Sigma_g$ we have
+    \begin{equation}
+        c(T\Sigma_g)=2-2g
+    \end{equation}
+\end{thm}
+
+So far we have only defined the Chern class for a surface. To define it for general manifolds we need to recall the definition of de Rham cohomology. Given a manifold $M$ we have the de Rham complex 
+\begin{equation}
+    0\rightarrow \Omega^0(M)\rightarrow \Omega^1(M)\rightarrow \cdots \rightarrow \Omega^m(M)
+\end{equation}
+where $m=\dim M$ and $\Omega^p(M)$ is the space of $p$-forms on $M$. The horizontal maps are exterior derivatives $\dd$. Then $\dd^2=0$ and it makes sense to define the de Rham cohomology groups 
+\begin{equation}
+    \HH^p(M)=\frac{\ker\Omega^p(M)\rightarrow \Omega^{p+1}(M)}{\Im \Omega^{p-1}(M)\rightarrow \Omega^p(M)}
+\end{equation}
+Each $\HH^p$ is a finite-dimensional vector space if $M$ is compact or otherwise well behaved. For a general definition of the Chern class is just 
+\begin{defn}{Chern class}{}
+    Given a manifold $M$, the Chern class of the line bundle $L$ is just $c(L)\in \HH^2(M)$.
+\end{defn}
+
+If we want to generalize the notion of line bundle to the one of vector bundle, we just replace every $\bbC$ with $\bbC^n$ and every $\bbC^\times$ with $\rm{GL}(n,\bbC)$.

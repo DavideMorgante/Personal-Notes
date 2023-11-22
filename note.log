@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  31 AUG 2023 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.9)  11 OCT 2023 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1106,46 +1106,46 @@ Package: stacklet 2012/11/07 v0.3a private letters (UL)
 ))
 Package: dowith 2012/11/05 v0.3 simple list loop (UL)
 )
-LaTeX Font Info:    Trying to load font information for T1+ybv on input line 150.
+LaTeX Font Info:    Trying to load font information for T1+ybv on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/baskervald/t1ybv.fd
 File: t1ybv.fd 2010/07/13 Fontinst v1.933 font definitions for T1/ybv.
 ) (./note.aux (./files/geom_gauge.aux) (./files/spindles.aux) (./files/gen_symm.aux) (./files/cs_theory.aux) (./files/power_sym.aux) (./files/rep_catsym.aux) (./files/SW_theory.aux) (./files/class_S.aux) (./files/2d4d_corr.aux))
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 150.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 150.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 151.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 150.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 150.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 151.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 150.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 150.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 151.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 150.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 150.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 151.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1200,38 +1200,38 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 150.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 150.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 150.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 150.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 150.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 150.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 150.
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 151.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Package xypdf Info: Line width: 0.5475pt on input line 150.
+Package xypdf Info: Line width: 0.5475pt on input line 151.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 150.
+Package hyperref Info: Link coloring ON on input line 151.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1241,9 +1241,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count380
 )
-LaTeX Info: Redefining \ref on input line 150.
-LaTeX Info: Redefining \pageref on input line 150.
-LaTeX Info: Redefining \nameref on input line 150.
+LaTeX Info: Redefining \ref on input line 151.
+LaTeX Info: Redefining \pageref on input line 151.
+LaTeX Info: Redefining \nameref on input line 151.
  (./note.out) (./note.out)
 \@outlinefile=\write6
 \openout6 = `note.out'.
@@ -1255,7 +1255,7 @@ LaTeX Info: Redefining \nameref on input line 150.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 ... {7}Seiberg--Witten theory}{45}{chapter.7}
+l.31 ...e {5}The power of symmetry}{43}{chapter.5}
                                                   % [1
 
 ])
@@ -1263,67 +1263,91 @@ l.31 ... {7}Seiberg--Witten theory}{45}{chapter.7}
 \openout7 = `note.toc'.
 
 LaTeX Font Info:    Font shape `T1/ybv/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/ybv/m/it' tried instead on input line 160.
+(Font)              Font shape `T1/ybv/m/it' tried instead on input line 161.
  [2]
 \openout2 = `files/geom_gauge.aux'.
 
  (./files/geom_gauge.tex
 Chapter 1.
-)
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 \include{files/geom_gauge}
-                                 [1
+l.27 
+      [1
 
 
 
 ]
-\openout2 = `files/spindles.aux'.
+Overfull \hbox (9.76486pt too wide) in paragraph at lines 38--39
+[]\T1/ybv/m/n/10.95 With the ex-te-rior dif-fer-en-tial we can con-struct the de Rham co-ho-mol-ogy $[][]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 M\OT1/jkp/m/n/10.95 ) = [][](\OML/jkp/m/it/10.95 M\OT1/jkp/m/n/10.95 ; \U/jkpsyb/m/n/10.95 R\OT1/jkp/m/n/10.95 )$\T1/ybv/m/n/10.95 .
+ []
 
- (./files/spindles.tex
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Spindles in AdS} [2
+l.59 \begin{equation}
+                      [2] [3]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.109 \begin{defn}{Complex line bundle}{}
+                                         
+LaTeX Font Info:    Trying to load font information for TS1+ybv on input line 112.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/baskervald/ts1ybv.fd
+File: ts1ybv.fd 2010/07/13 Fontinst v1.933 font definitions for TS1/ybv.
+) [4] [5] [6]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@thm.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.234 \begin{thm}{Gauss-Bonnet}{}
+                                 ) [7]
+\openout2 = `files/spindles.aux'.
+
+ (./files/spindles.tex [8
 
 
 
 
 ]
 Chapter 2.
-[3] [4]) [5]
+[9] [10]) [11]
 \openout2 = `files/gen_symm.aux'.
 
- (./files/gen_symm.tex [6
+ (./files/gen_symm.tex [12
 
 
 
 
 ]
 Chapter 3.
-[7]
+[13]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 \begin{defn}{Symmetries}{sym}
-                                   [8] [9]
+                                   [14] [15]
 Overfull \hbox (29.67426pt too wide) detected at line 134
 [][][][][]
  []
 
-[10]
+[16]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.175 ...n{defn}{Projective Representations}{PRep}
-                                                   [11]
+                                                   [17]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.209 \begin{defn}{2-Cochain}{2co}
                                   
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.212 \begin{defn}{2-Coboundary}{2cob}
+                                      
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
@@ -1333,15 +1357,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
-[12] [13] [14]
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@thm.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.232 \begin{thm}{}{proj}
+                          [18] [19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 350--352
 
  []
 
-[15] [16]
+[21] [22]
 
 pdfTeX warning: pdflatex (file ./instanton.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<instanton.pdf, id=485, 1047.915pt x 899.36pt>
+<instanton.pdf, id=607, 1047.915pt x 899.36pt>
 File: instanton.pdf Graphic file (type pdf)
 <use instanton.pdf>
 Package pdftex.def Info: instanton.pdf  used on input line 428.
@@ -1351,7 +1380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
  []
 
-[17 <./instanton.pdf>]
+[23 <./instanton.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1364,7 +1393,7 @@ l.474 \begin{defn}{Wilson Lines}{}
                                   
 Underfull \vbox (badness 1142) has occurred while \output is active []
 
- [18]
+ [24]
 Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
@@ -1375,19 +1404,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@Jargon
                    \relax 
 l.488 \begin{Jargon}{Gauging a Symmetry}{}
                                           
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.497 \begin{defn}{Gauging a p-form symmetry}{}
+                                               
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [25]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@thm.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.531 \begin{thm}{}{}
-                      [20] [21]
+                      [26] [27]
 Underfull \hbox (badness 10000) in paragraph at lines 576--578
 
  []
 
-[22]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 639--641
 
  []
@@ -1402,7 +1436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 648--649
 
  []
 
-[23]
+[29]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1412,7 +1446,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@thm.1}
 <to be read again> 
                    \relax 
 l.672 ...hm}{$1^{\text{st}}$-Homorphism theorem}{}
-                                                   [24]
+                                                   [30]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1420,15 +1454,20 @@ l.723 \begin{defn}{$p$-chain}{}
                                
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [25]
+ [31]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.733 \begin{defn}{Boundary operator}{}
                                        
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.749 \begin{defn}{Simplicial complex}{}
+                                        
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [32]
 Underfull \hbox (badness 10000) in paragraph at lines 757--758
 
  []
@@ -1436,41 +1475,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 757--758
 
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [27] [28]
-LaTeX Font Info:    Trying to load font information for TS1+ybv on input line 876.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/baskervald/ts1ybv.fd
-File: ts1ybv.fd 2010/07/13 Fontinst v1.933 font definitions for TS1/ybv.
-) [29] [30]) [31]
+ [33] [34] [35] [36]) [37]
 \openout2 = `files/cs_theory.aux'.
 
- (./files/cs_theory.tex [32
+ (./files/cs_theory.tex [38
 
 
 
 
 ]
 Chapter 4.
-[33]
+[39]
 pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@defn.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.51 \begin{defn}{Momentum Map}{}
-                                 ) [34] [35]
+                                 ) [40] [41]
 \openout2 = `files/power_sym.aux'.
 
- (./files/power_sym.tex [36
+ (./files/power_sym.tex [42
 
 
 
 
 ]
 Chapter 5.
-[37] [38] [39] [40]
+[43] [44] [45] [46]
 Overfull \hbox (11.17085pt too wide) in paragraph at lines 146--148
 \T1/ybv/m/n/10.95 it is called Gukov-Witten op-er-a-tor. The charged ob-jects are Wil-son and 't Hooft lines $\OML/jkp/m/it/10.95 W[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 L\OT1/jkp/m/n/10.95 )\OML/jkp/m/it/10.95 ; H[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 L\OT1/jkp/m/n/10.95 )$
  []
 
-[41]) [42]
+[47]) [48]
 \openout2 = `files/rep_catsym.aux'.
 
  (./files/rep_catsym.tex
@@ -1483,69 +1518,69 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 22.
 
-[43
+[49
 
 
 
 
-]) [44]
+]) [50]
 \openout2 = `files/SW_theory.aux'.
 
  (./files/SW_theory.tex
 Chapter 7.
-[45
+[51
 
 
 
 
-] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58]) [59]
+] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64]) [65]
 \openout2 = `files/class_S.aux'.
 
- (./files/class_S.tex [60
+ (./files/class_S.tex [66
 
 
 
 
 ]
 Chapter 8.
-[61]
+[67]
 Overfull \hbox (16.63184pt too wide) in paragraph at lines 24--27
 \T1/ybv/m/n/10.95 Another pos-si-bil-ity is with $[]\OT1/jkp/m/n/10.95 (\OML/jkp/m/it/10.95 N\OT1/jkp/m/n/10.95 )$ \T1/ybv/m/n/10.95 gauge groups and add $\OT1/jkp/m/n/10.95 2\OML/jkp/m/it/10.95 N$ \T1/ybv/m/n/10.95 fun-da-men-tal flavours $\OML/jkp/m/it/10.95 R \OT1/jkp/m/n/10.95 = [] 2\OML/jkp/m/it/10.95 NR[]$\T1/ybv/m/n/10.95 .
  []
 
-[62] [63] [64] [65] [66]
-<dualities.pdf, id=998, 1927.2pt x 1084.05pt>
+[68] [69] [70] [71] [72]
+<dualities.pdf, id=1118, 1927.2pt x 1084.05pt>
 File: dualities.pdf Graphic file (type pdf)
 <use dualities.pdf>
 Package pdftex.def Info: dualities.pdf  used on input line 229.
 (pdftex.def)             Requested size: 426.39256pt x 239.83157pt.
- [67 <./dualities.pdf>]
-<su2.pdf, id=1010, 1927.2pt x 1084.05pt>
+ [73 <./dualities.pdf>]
+<su2.pdf, id=1130, 1927.2pt x 1084.05pt>
 File: su2.pdf Graphic file (type pdf)
 <use su2.pdf>
 Package pdftex.def Info: su2.pdf  used on input line 250.
 (pdftex.def)             Requested size: 426.39256pt x 239.83157pt.
- [68 <./su2.pdf>]) [69]
+ [74 <./su2.pdf>]) [75]
 \openout2 = `files/2d4d_corr.aux'.
 
- (./files/2d4d_corr.tex [70
+ (./files/2d4d_corr.tex [76
 
 
 
 
 ]
 Chapter 9.
-[71]
+[77]
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-[72]
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
  []
 
-[73]
+[79]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 284.
@@ -1562,32 +1597,45 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 300.
 
-[74] [75]) [76] (./note.bbl
+[80] [81] [82] [83]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 443.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 443.
+
+[84]) [85] [86]
+Chapter 10.
+[87
+
+
+
+] [88] (./note.bbl
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 8.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
-)) [77
-
-
+)) [89
 
 
 ] (./note.aux (./files/geom_gauge.aux) (./files/spindles.aux) (./files/gen_symm.aux) (./files/cs_theory.aux) (./files/power_sym.aux) (./files/rep_catsym.aux) (./files/SW_theory.aux) (./files/class_S.aux) (./files/2d4d_corr.aux))
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: 1D109D8D29F990160BD720A0C36FACF2;7785.
+(rerunfilecheck)             Checksum: B193CCF88023105AF561CE6DD7C3FC2B;9283.
  ) 
 Here is how much of TeX's memory you used:
- 47883 strings out of 478268
- 1053316 string characters out of 5846348
- 1500165 words of memory out of 5000000
- 64606 multiletter control sequences out of 15000+600000
- 675219 words of font info for 260 fonts, out of 8000000 for 9000
+ 48086 strings out of 478268
+ 1057100 string characters out of 5846348
+ 1501801 words of memory out of 5000000
+ 64723 multiletter control sequences out of 15000+600000
+ 677008 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,117p,3269b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/baskervald/supp-ybv.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arkandis/baskervald/ybvri8a.pfb>
-Output written on note.pdf (80 pages, 474132 bytes).
+Output written on note.pdf (92 pages, 521458 bytes).
 PDF statistics:
- 1308 PDF objects out of 1440 (max. 8388607)
- 1171 compressed objects within 12 object streams
- 552 named destinations out of 1000 (max. 500000)
- 410 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1489 PDF objects out of 1728 (max. 8388607)
+ 1338 compressed objects within 14 object streams
+ 636 named destinations out of 1000 (max. 500000)
+ 490 words of extra memory for PDF output out of 10000 (max. 10000000)
 

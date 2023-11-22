@@ -366,7 +366,7 @@ And now the invariance under the exchange of the various letters is manifest! Bu
 			incoming boundary components=2,
 			outgoing boundary components=2,
 			offset =0,
-			fill =red!50 ,
+			fill =blue!50 ,
 			opacity=.5,
 			cobordism edge/.style={draw} ,
 			incoming upper boundary component 1/.style={draw},
@@ -392,9 +392,97 @@ And now the invariance under the exchange of the various letters is manifest! Bu
 \end{minipage}\\
 This is the explicit $4d-2d$ correspondance! 
 
-\section{\texorpdfstring{Connection to $6d$}{M-theory}}
+\section{\texorpdfstring{Connection to $6d$}{Mtheory}}
 But why is this the case? The general idea is that each half-hypermultiplet corresponds to a three-punctured sphere and the gauge field is just a tube connecting punctures. 
 
 The fact is that there is a certain $6d$ $\cN=(2,0)$ SCFT labelled by $G=ADE$\footnote{$A_n=\SU(n+1),D_n=\SO(2n),E_n=E_6,E_7,E_8$} such that its compactification on $S^1$ in the IR is given by a $5d$ $\cN=2$ SYM with gauge group $G$. By compactifying the $A_n$ case on the right punctured geometry the $4d$ theory is just the one studyied up to now.
 
 But how do we know this? Starting from string theory, consider $N$ M5-branes on top of each other. The worldsheet theory is just the $6d$ $\cN=(2,0)$ gauge theory with gauge group $A_{N-1}$. For $D_N,E_N$ one can do similar constructions.
+
+Before going to $4d$ $\cN=2$, we want to study $4d$ $\cN=4$ coming from a similar setup. Take the $6d$ SCFT and put it on $S^1$ with a radious $R_6$. The compactified theory is just $5d$ $cN=2$ SYM with $G$ gauge group 
+\begin{equation}
+	\int \dd[5]{x}\frac{1}{g^2_5}\tr F\wedge\star F+\cdots
+\end{equation}
+In $5d$ the inverse of the gauge coupling has dimension one since the kinetic term has dimension four. But the SCFT does not have any mass scale, therefore
+\begin{equation}
+	g_5^2\propto R_6
+\end{equation}
+Let us do another compactification on a circle with radius $R_5$. This becomes $4d$ $\cN=4$ SYM with gauge group G whose coupling constant is given by a usual Kaluza-Klein expansion
+\begin{equation}
+	\int \dd x_5\int\dd[4]x\frac{1}{g_5^2}\tr F\wedge \star F+\cdots
+\end{equation}
+where now the combination of $g_5^{-2}\dd{x_5}=g_{4}^{-2}$ and therefore 
+\begin{equation}
+	\frac{1}{g_4^2}\sim\frac{R_5}{R_6}
+\end{equation}
+Here we just put the $6d$ theory on a $T^2$ with sizes $R_6,R_5$ and got a $4d$ theory with $\tau=R_5 /R_6$. We could compactify in the other direction and get another $4d$ $\cN=4$ SYM with $\tau=R_6 / R_5$ which is just the inverse of the other one. This is the S-duality action which in this language is just Lorentz invariance in $6d$. 
+
+In the $4d$ theory, basic excitations are point-like, but in $6d$ we have strings which can wrap the two cycles of the torus. These are tensionful strings, and therefore are massive excitations in the low energy theory. These have masses proportional to their tension and the radius of the two circles. The ratio of the mass of the excitations is just the complexified coupling. Recall that in $\cN=4$ the ratio of the mass of the W-boson and the monopole is given by the coupling $\tau$, so we can identify them with the wrapped strings. They come from the same object in $6d$. If one can write the lagrangian for this theory, S-duality would be completely trivial. But there perturbative excitations are going to be the same as semiclassical ones. This is very difficult.
+
+\subsection{Kaluza-Klein reduction}
+Consider a free massless scalar $\phi$ in $d$-dimensions and put it on $S^1$ of radius $R$. We can decompose the field in terms of the Fourier modes
+\begin{equation}
+	\phi(\vec{x},x_d)=\sum_n\phi_{(n)}(\vec{x})e^{in x_\frac{d}{R}}
+\end{equation}
+and the excitations are going to have massess of order 
+\begin{equation}
+	m=\abs{\frac{n}{R}}\quad\text{Kaluza-Klein tower}
+\end{equation}
+Consider $5d$ $\cN=2$ SYM with gauge group $G$ on flat space $\bbR^4\times \bbR$. This has instanton configurations which is point-like in $\bbR^4$ but it extends in time. It's a particle like excitation and the mass is given by the instanton action: if instanton number is $n$, the mass is 
+\begin{equation}
+	\frac{8\pi^2}{g_5^2}n\propto \frac{n}{R_6}
+\end{equation}
+So the mass of the instanton particle behave exactly like the KK tower. They are exactly the same when we fix the proportionality constant as
+\begin{equation}
+	g_{5d}^2=8\pi R_5^2
+\end{equation}
+So when we start from $6d$ part of the tower is included by the instanton configurations. There is an empirical fact: as far as BPS quantities are concerned, $5d$ SYM computations including instantons gives all the expected KK modes. In particular, if you add, say, KK towers of $5d$ YM fields, one gets double counting.
+
+So if a lagrangian for this theory, it should have a gigantic gauge symmetry which would gauge away all this KK modes and identify them with the instantons. 
+
+\subsection{Back to $6d$}
+Now we can go to the $4d$ $\cN=2$ case. Take $6d$ $\cN=(2,0)$ of type $A_1=\SU(2)$\footnote{This does not mean that there is a $\SU(2)$ gauge field in $6d$.} and put it on a Riemann surface made of two $3$-punctured spheres glues on one puncture. Let us say that the tube has circumference length $R_6$ and length $R_5$. Use the fact that when we compactify the theory on a cicle, we get $5d$ $\cN=2$ SYM on a segment coupled to something at the ends. By compactifying again we get a $4d$ gauge multiplet with $\tau=R_5 / R_6$. But there is something going on on the ends, let us say there is a way to have a remaining $\cN=2$ instead of $\cN=4$ due to the boundary conditions. What is this boundary condition? From the $6d$ point of view we cannot say i for sure. But in $5d$ we see that the boundary is $\bbR^4$ so one can have some $4d$ theory with $\SU(2)$ flavour symmetry living on the boundary that couples to the bulk.The theory is exactly the trifundamental hypermultiplet $Q_{ABg}$. So let us try to determine what this $3$-punctured sphere is from $6d$: consider the SCI of the $4d$ theory obtained from $6d$ by putting the theory on this Riemann surface. Morally, the partition function of the $4d$ theory on $S^3\times S^1$ is just the partition function of the $6d$ theory on $S^3\times S^1\times \Sigma_g$. But since there is an $S^1$ we can compactify on it and get the partition function of the $5d$ SYM on $S^3\times \Sigma_g$. When compactifying again on $S^3$, computing the various corrections and including the KK modes around $S^3$ we get the partition function of a $2d$ theory on $\Sigma_g$ which is just $q$-deformed YM.
+
+S-duality can be derived in a very nice way from $6d$. We found that the $6d$ theory on $\Sigma_4$ comprised of two $3$-punctured spheres connected by a cyclinder of circumference $R_6$ and length $R_5 $ gives rise to a $4d$ theory of two trifundamental hypermultiplet and an $\cN=2$ vector multiplet with coupling $\tau= R_5 / R_6$. We can make the coupling very small by having a very long cylinder. When we make the cylinder vert short, the theory is vert strongly coupled and when the two spheres are very near to each other we can split the $2d$ surgface in another way and consider the dimensional reduction along the other direction which just gives the S-dual theory.
+
+\section{\texorpdfstring{Generalizing to $\SU(N)$}{SUN}}
+We saw before that by compactifying $6d$ $\cN=(2,0)$ of type $A_1$ on a $3$-punctured sphere we obtain the theory of a free hypermultiplet. This is also confirmed by the structure of the SCI which was discussed and can be found from $6d$. The SCI is just given by 
+\begin{equation}
+	\frac{K(a)K(b)K(c)K(d)}{K_0^2}\sum_{n\ge 1}\frac{\chi_n(a)\chi_n(b)\chi_n(c)\chi_n(d)}{\chi_n(q^{\frac{1}{2}})^2}
+\end{equation}
+where 
+\begin{equation}
+	K(a)=1+\chi_\rm{adj}(a)q+\order{q^2},\qquad K_0=1+\order{q^2}
+\end{equation}
+If we expand the SCI up to order $q$ we get
+\begin{equation}
+	1+\frac{\chi_D(a)\chi_D(b)\chi_D(c)}{q^{\frac{1}{2}}+q^{-\frac{1}{2}}}+\order*{q}=1+q^{-\frac{1}{2}}\chi_D(a)\chi_D(b)\chi_D(c)+\order*{q}
+\end{equation}
+where the $q^{-\frac{1}{2}}$ signals the presence of a free hypermultiplet transforming in the flavour group representation $\chi_D(a)\chi_D(b)\chi_D(c)$, i.e. a trifundamental.
+
+Generalizing to $\SU(N)$ 
+\begin{equation}
+	\frac{K(a)K(b)K(c)K(d)}{K_0^2}\sum_{n\ge 1}\frac{\chi_n(a)\chi_n(b)\chi_n(c)\chi_n(d)}{\chi_n(\operatorname{diag}(q^{\frac{N-1}{2}},q^{\frac{N-2}{2}},\ldots,q^{\frac{1-N}{2}}))}
+\end{equation}
+Consider $N=3$ with the expansion taken before 
+\begin{equation}
+	1+q\qty(\chi_\rm{adj}(a)+\chi_\rm{adj}(b)+\chi_\rm{adj}(c))+\frac{\chi_\rm{fund}(a)\chi_\rm{fund}(b)\chi_\rm{fund}(c)+\rm{antifund}}{q^-1+1+q^2}
+\end{equation}
+This seems like $E_6$ symmetry, in fact $\SU(3)_A\times\SU(3)_B\times\SU(3)_C\subset E_6$ where 
+\begin{equation}
+	78=8_A\oplus 8_B\oplus 8_C\oplus(3_A\otimes 3_B\otimes 3_C)\oplus (\bar{3}_A\otimes\bar{3}_B\otimes\bar{3}_C)
+\end{equation}
+This theory is known as the $E_6$ theory of Minahan-Nemeschansky. With this we can construct the duality between two copies of the $E_6 \times E_6$ theory (one factor from each $3$-punctured sphere).
+
+More than this, being an $\SU(3)$ $\cN=2$ with $N_f=4$, we would like to understand the case of $\SU(3)$ with $N_f=6$. Before getting here we consider the case for general $N$. The theory is named $T_N$ and the duality works as expected. We do not really know what this $T_N$ theories actually are, but we know a lot about them; they are also non-lagrangian. Before diving into the lagrangian case of $\SU(N)$ with $N_f=2N$, let us discuss some geometric things. 
+
+\subsection{Partial closure of punctures}
+In general, given an $\cN=2$ SCFT $\cT$ with flavour symmetry $G_F$ it will have current operators. Thanks to susy we will have also fermion and scalar operators associated with the current 
+\begin{equation}
+	\mu_{(ij)}^a,\ \lambda_{\alpha i}^a, \ J^a_\mu
+\end{equation}
+where $i$ is an $\SU(2)_R$ index and $\mu$ is a $G_F$ adjoint scalar. In the language of class-S a puncture is a flavour symmetry. E.g. consider a bifundamental hypermultiplet $Q_a^i,\Tilde{Q}_i^a$ with $a,i=1,\ldots N$ and flavour is $\U(N)\times \U(N)$. Then there should be three scalar operators
+\begin{equation}
+	\mu^+=Q_a^i\Tilde{Q}^b_i,\quad \mu^-=(Q^\dagger)^a_i(\Tilde{Q}^\dagger)^i_a,\quad \mu^0=(Q^\dagger)^a_i Q^i_b-\Tilde{Q}^a_i(\Tilde{Q}^\dagger)^i_b
+\end{equation}
+where $\mu^+$ is a chiral field, $\mu^-$ is an anti-chiral and $\mu^0$ is just a D-term.
