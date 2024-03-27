@@ -7,10 +7,10 @@ A level-1 auxiliary file: files/spindles.aux
 A level-1 auxiliary file: files/gen_symm.aux
 A level-1 auxiliary file: files/cs_theory.aux
 A level-1 auxiliary file: files/power_sym.aux
-A level-1 auxiliary file: files/rep_catsym.aux
 A level-1 auxiliary file: files/SW_theory.aux
 A level-1 auxiliary file: files/class_S.aux
 A level-1 auxiliary file: files/2d4d_corr.aux
+A level-1 auxiliary file: files/Lens_space.aux
 Database file #1: reps.bib
 Warning--entry type for "percacci" isn't style-file defined
 --line 47 of file reps.bib
