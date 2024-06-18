@@ -61,15 +61,44 @@ A connection on $P$ is a rule for comparing fibers at different points $\pi^{-1}
 \end{equation}
 From this one can construct the covariant derivative 
 \begin{equation}
-    D_A=\delta+A\wedge
+    D_A=\delta+A
 \end{equation}
 This connection can have non-trivial curvature, the field strength, which is given by the commutator of the covariant derivatives 
 \begin{equation}
-    F=\dd{A}+A\wedge A
+    F=\dd{A}+A\wedge A=D_A A
 \end{equation}
+
+\subsection{Some Details}
+The key is Weyl's famous observation that electrodynamics is really (classical) $U(1)$-gauge theory. Concretely: 
+\begin{itemize}
+    \item You generalise the global $1$-form $A$ on $M$ to a connection $D_A$ on a Hermitian line bundle $\mathcal{L} \to M$, which can locally be written as $d + A$ for $A$ the so-called connection $1$-form.
+    \item The differential $F := \mathrm{d}A$ of the global $1$-form $A$ is replaced by the curvature $$F := \mathrm{d}A + A \wedge A = D_A A$$ of the connection $D_A$, which is still a global $2$-form and still satisfies $\dd F = 0$ by the Bianchi identity as applied to a connection on a line bundle. 
+    \item Gauge symmetry in this context now still holds, since the curvature $2$-form $F$ is unchanged if you replace $D_A$ by $D_A + \dd f$ for $f \in C^\infty(M)$.
+\end{itemize}
+But in general it can happen that $H^2(M,\bbR)\neq 0$ and therefore $F\neq d A$. The assignment
+\begin{equation}
+ (\text{line bundle $\mathcal{L} \to M$}) \mapsto (\text{curvature $2$-form $\mathcal{F}$ of a connection $\nabla$ on $\mathcal{L}$})
+\end{equation}
+induces a homomorphism
+\begin{equation}
+ \operatorname{Pic}(M) \to H^2_{\mathrm{dR}}(M) \cong H^2(M,\mathbb{R}),
+\end{equation}
+where the Picard group $\operatorname{Pic}(M)$ is the abelian group of isomorphism classes of line bundles on $M$, with operations defined as
+\begin{equation}
+ [\mathcal{L}] + [\mathcal{L}^\prime] := [\mathcal{L} \otimes \mathcal{L}^\prime], \quad -[\mathcal{L}] := [\mathcal{L}^\ast];
+\end{equation}
+Then $H^2(M,\mathbb{R}) = 0$ if and only if every closed $2$-form on $M$ is exact (i.e., $F = \dd A$ for some global $1$-form $A$), if and only if every line bundle is trivial or torsion (so that, necessarily, $D_A = d + A$ for a global $1$-form $A$). The moment that $H^2(M,\mathbb{R}) \neq 0$, however, you do have non-trivial line bundles and non-exact closed $2$-forms, so that you really do need to consider your spacetime $M$ together with a potentially non-trivial line bundle $\mathcal{L} \to M$.
+Some comments are in order
+\begin{itemize} 
+    \item The cohomology group $H^2(M,\mathbb{R})$ contains an isomorphic copy of $H^2(M,\mathbb{Z})/\operatorname{Tor}(H^2(M,\mathbb{Z}))$ (via the UCT) as a lattice. It’s a non-trivial consequence of the Chern–Weil theory that our homomorphism $\operatorname{Pic}(M) \to H^2(M,\mathbb{R})$ not only maps into this lattice but actually recovers the Chern class $\operatorname{Pic}(M) \to H^2(M,\mathbb{Z})$ modulo torsion.
+    \item Given a line bundle $\mathcal{L}$, a connection $\nabla$ on $\mathcal{L}$ is the *gauge potential* of an electromagnetic field in that topological sector, and the curvature $F$ of $\nabla$ is the *field strength* of that electromagnetic field.
+    \item The class of the line bundle $\mathcal{L}$ in $\operatorname{Pic}(M) \cong H^2(M,\mathbb{Z})$ is called the *topological charge* or *topological defect*. If $H^2(M,\mathbb{Z}) \cong \mathbb{Z}$, then, in suitable units, the integer corresponding to $[\mathcal{L}]$ can be interpreted as a *monopole charge* à la Dirac. Indeed, the Dirac monopole can be interpreted as a certain connection on a certain non-trivial line bundle on $M = \mathbb{R}^{1,3} \setminus \text{(timelike worldline)}$.
+\end{itemize}
+
+
 \section{Characteristic classes}
 \begin{proposition}
-    For a gixed $G$, any principle $G$-bundle over a fixed base manifold $X$ can be constructed by pulling back a $G$ bundle from a universal spaced called the classifying space $BG$. The classifying space can be constructed as follows: pick a contractible space $EG$ with a free $G$-action. $BG$ can then be constructed as a quotient $EG/G$. Now any principal $G$-bundle $P\rightarrow X$ can be constructed by pulling back the bundle $EG\rightarrow BG$ 
+    For a fixed $G$, any principle $G$-bundle over a fixed base manifold $X$ can be constructed by pulling back a $G$ bundle from a universal spaced called the classifying space $BG$. The classifying space can be constructed as follows: pick a contractible space $EG$ with a free $G$-action. $BG$ can then be constructed as a quotient $EG/G$. Now any principal $G$-bundle $P\rightarrow X$ can be constructed by pulling back the bundle $EG\rightarrow BG$ 
     \begin{equation}
         \begin{tikzcd}
             G \arrow{r}{} & P  \arrow[swap]{d}{\pi} &\arrow[swap]{l}{f^*}EG \arrow{d}{\pi} &\arrow{l} G \\
