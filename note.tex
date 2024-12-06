@@ -40,6 +40,9 @@
 				tqft,
 				calc}
 \usepackage{pgfplots}
+\pgfdeclarelayer{background layer}
+\pgfdeclarelayer{foreground layer}
+\pgfsetlayers{background layer,main,foreground layer}
 \usepackage[labelfont=bf]{caption}
 \usepackage{blindtext}
 \pgfplotsset{compat=1.17} 
